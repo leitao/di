@@ -1,0 +1,200 @@
+Source: debian-installer
+Section: devel
+Priority: optional
+Maintainer: Ubuntu Installer Team <ubuntu-installer@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: Frans Pop <fjp@debian.org>, Otavio Salvador <otavio@debian.org>
+Standards-Version: 3.8.3
+XS-Debian-Vcs-Svn: svn://svn.debian.org/d-i/trunk/installer
+Vcs-Bzr: http://bazaar.launchpad.net/~ubuntu-core-dev/debian-installer/ubuntu
+Build-Conflicts: libnewt-pic [mipsel]
+# NOTE: Do not edit the next line by hand. See comment below.
+Build-Depends: debhelper (>= 7.0.0), apt, apt-utils, gnupg, ubuntu-keyring, dctrl-tools, wget, bc, debiandoc-sgml, xsltproc, docbook-xml, docbook-xsl, libbogl-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], lsb-release, libslang2-pic (>= 2.0.6-4), libnewt-pic (>= 0.52.2-11.3) [!mipsel], libnewt-dev (>= 0.52.2-11.3) [mipsel], libgcc1 [i386 amd64], cramfsprogs [powerpc ia64 mips mipsel armeb armel], genext2fs (>= 1.3-7.1), e2fsprogs, mklibs (>= 0.1.40), mklibs-copy (>= 0.1.40), genisoimage (>= 9:1.1.10-1ubuntu2) [!s390 !s390x], genromfs [sparc sparc64], hfsutils [powerpc], dosfstools (>= 3.0.9-1ubuntu2) [i386 ia64 m68k amd64 armel armhf arm64], cpio, devio [armeb armel], parted [armel armhf], slugimage (>= 0.10+r58-6) [armeb armel], u-boot-tools [arm64 armel armhf], syslinux (>= 3:6) [i386 amd64], syslinux-utils (>= 3:6) [i386 amd64], pxelinux (>= 3:6) [i386 amd64], isolinux (>= 3:6) [i386 amd64], syslinux-common (>= 3:6) [i386 amd64], palo [hppa], elilo [ia64], yaboot [powerpc], aboot (>= 0.9b-2) [alpha], silo [sparc], sparc-utils [sparc sparc64], genisovh [mips], tip22 [mips], colo [mipsel], sibyl [mips mipsel], atari-bootstrap [m68k], vmelilo [m68k], m68k-vme-tftplilo [m68k], amiboot [m68k], emile [m68k], emile-bootblocks [m68k], u-boot [armel armhf], shim-signed [amd64], tofrodos [i386 amd64 kfreebsd-i386 kfreebsd-amd64], mtools [i386 ia64 m68k amd64 arm64 kfreebsd-i386 kfreebsd-amd64 hurd-i386 armel armhf], po4a [i386 amd64], python3 (>= 3.1) [i386 amd64], kmod [linux-any], bf-utf-source [!s390 !s390x], mkvmlinuz [powerpc], openssl, makefs [kfreebsd-i386 kfreebsd-amd64], grub-pc (>= 1.98~20100101-1) [kfreebsd-i386 kfreebsd-amd64 hurd-i386], xorriso [arm64 kfreebsd-i386 kfreebsd-amd64 hurd-i386 ppc64el], grub-efi-amd64-bin (>= 2.00) [amd64], grub-efi-arm64-bin [arm64], grub-common [amd64 arm64], debian-ports-archive-keyring [sh4 sparc64], grub-ieee1275-bin [ppc64el]
+# This package has the worst Build-Depends in Debian, so it deserves some
+# explanation. Note that this comment can also be used to generate a
+# Build-Depends line, by running the debian/genbuilddeps program.
+# So put each build dep on its own line, prefixed by " - " and to
+# comment out a build dep, start the line with two hashes. And don't edit
+# the Build-Depends line above by hand.
+#
+# Base build dependencies:
+#	- debhelper (>= 7.0.0)
+#		Of course.
+# 	- apt
+# 		Used for downloading udebs.
+# 	- apt-utils
+# 		apt-ftparchive is used for including localudebs.
+#	- gnupg
+#		New versions of apt need gnupg for security checks.
+#	- ubuntu-keyring
+#		To provide the archive key for security checks.
+#	- dctrl-tools
+#		Various manipulations of the udeb Packages files.
+#	- wget
+#		Used to test validity of mirrors.
+#	- bc
+#		Used for some image size calculations.
+#	- debiandoc-sgml
+#		partman's manual is in debiandoc.
+#	- xsltproc
+#	- docbook-xml
+#	- docbook-xsl
+#		The d-i internals manual is in DocBook XML.
+#	- libbogl-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386]
+#		For bdftobogl used in font reduction.
+#	- lsb-release
+#		Provides system version information.
+#	
+# Library build dependencies:
+#	- libslang2-pic (>= 2.0.6-4)
+#		Make dependency versioned temporarily to make sure we avoid #392942
+#	- libnewt-pic (>= 0.52.2-11.3) [!mipsel]
+#		Rather than use slang and newt udebs, reduced versions of
+#		the libraries are put onto images to save space.
+#	- libnewt-dev (>= 0.52.2-11.3) [mipsel]
+#		On mipsel, we can't use libnewt-pic right now due to bug
+#		#329733. See also Build-Conflicts above.
+#	- libgcc1 [i386 amd64]
+#		On x86 we need to include /lib/libgcc_s.so.1 in g-i initrds to
+#		work around #373253 until upstream can remove pthread_cancel()
+#		On i386 
+#		calls in directfb. For now, this is done by setting EXTRAFILES.
+#
+# Filesystem tools:
+#	- cramfsprogs [powerpc ia64 mips mipsel armeb armel]
+#		For arches that use cramfs initrds.
+#	- genext2fs (>= 1.3-7.1)
+#		For creating ext2 filesystems without being root.
+#		1.3-7.1 fixes issues on several arches.
+#	- e2fsprogs
+#		genext2fs doesn't produce perfect filesystems, so we fsck
+#		them.
+#		Lintian: Yes, we know it's essential. We prefer not to
+#		count on it remaining so.
+#	- mklibs (>= 0.1.40), mklibs-copy (>= 0.1.40)
+#		We use mklibs for library reduction.
+#	- genisoimage (>= 9:1.1.10-1ubuntu2) [!s390 !s390x]
+#		For making mini isos.
+#	- genromfs [sparc sparc64]
+#		Used for creating sparc floppies (which are not built by
+#		default.)
+#	- hfsutils [powerpc]
+#		For making bootable HFS USB sticks for powerpc.
+#	- dosfstools (>= 3.0.9-1ubuntu2) [i386 ia64 m68k amd64 armel armhf arm64]
+#		For creating FAT filesystems with mkfs.msdos.
+#		Of course i386/amd64 use this for floppies, CDs etc.
+#		ia64 uses it for floppies (?)
+#		m68k uses it for atari floppies
+#		armel/armhf uses it for omap3/4 netboot images and requires
+#		3.0.9-1ubuntu2 to create bootable filesystems on OMAP
+#	- cpio
+#		For creating initramfs images.
+#	- devio [armeb armel]
+#		Tool to read and write from block devices, used to byteswap
+#		kernels and add nslu2 boot magic.
+#	- parted [armel armhf]
+#		For ARM OMAP images.
+#	- slugimage (>= 0.10+r58-6) [armeb armel]
+#		For building nslu2 firmware images.
+#	- u-boot-tools [arm64 armel armhf]
+#		For creating u-boot images
+#
+# Boot loaders:
+#	On many arches boot loaders are copied onto or ran on the boot
+#	images in one way or another. There's a reason our mailing list is
+#	still called debian-boot..
+#	- syslinux (>= 3:6) [i386 amd64]
+#	- syslinux-utils (>= 3:6) [i386 amd64]
+#	- pxelinux (>= 3:6) [i386 amd64]
+#	- isolinux (>= 3:6) [i386 amd64]
+#	- syslinux-common (>= 3:6) [i386 amd64]
+#	- palo [hppa]
+#	- elilo [ia64]
+#	- yaboot [powerpc]
+#		For all our powerpc boot needs. Well, not really.
+#	- aboot (>= 0.9b-2) [alpha]
+#		A previous version didn't have netabootwrap.
+#	- silo [sparc]
+#		Using silo is problimatic since it needs to run as root,
+#		so images that need it are not built by default, but we
+#		include it for completeness.
+#	- sparc-utils [sparc sparc64]
+#		For elftoaout and piggyback, to make netboot images.
+#	- genisovh [mips]
+#		Makes mini iso images bootable on SGI MIPSen.
+#	- tip22 [mips]
+#		Piggyback netboot images.
+#	- colo [mipsel]
+#		For booting Cobalt machines.
+#	- sibyl [mips mipsel]
+# 		For booting the SWARM board.
+#	- atari-bootstrap [m68k]
+#		Booting and other tools for Atari systems.
+#	- vmelilo [m68k]
+#	- m68k-vme-tftplilo [m68k]
+#		For VME machines, although it doesn't yet support running
+#		as non-root, the install will try to use it and fall back
+#		to a warning when it fails.
+#	- amiboot [m68k]
+#		Bootloader for m68k/amiga machines.
+#	- emile [m68k]
+#	- emile-bootblocks [m68k]
+#		Bootloader for m68k/mac machines.
+#	- u-boot [armel armhf]
+#		First and second state bootloaders for various ARM boards
+#	- shim-signed [amd64]
+#		First-stage bootloader for UEFI Secure Boot
+#
+# Architecture specific build dependencies:
+#	- tofrodos [i386 amd64 kfreebsd-i386 kfreebsd-amd64]
+#		For todos, used on files that need to be accessible from
+#		DOS.
+#	- mtools [i386 ia64 m68k amd64 arm64 kfreebsd-i386 kfreebsd-amd64 hurd-i386 armel armhf]
+#		mcopy is used to put files onto FAT filesystems w/o
+#		mounting them.
+#	- po4a [i386 amd64]
+#	- python3 (>= 3.1) [i386 amd64]
+#		For building gfxboot help texts.
+#
+#	- kmod [linux-any]
+#		depmod for 2.6 kernels on the arches that support 2.6.
+#
+#	- bf-utf-source [!s390 !s390x]
+#		Contains the unicode font we use. Not a udeb since we
+#		perform font reduction at build time.
+#	- mkvmlinuz [powerpc]
+#		Used to make powerpc images that can boot direct from
+#		firmware w/o using a boot loader.
+#	- openssl
+#		Used to encrypt a firmware image so an ARM based device
+#		(Thecus N2100) will accept it. Also useful on other
+#		architectures if SSL_CERTS has been set locally.
+#	- makefs [kfreebsd-i386 kfreebsd-amd64]
+#		Used to create an UFS1 filesystem from a directory tree.
+#	- grub-pc (>= 1.98~20100101-1) [kfreebsd-i386 kfreebsd-amd64 hurd-i386]
+#		Used as the CD-ROM's bootloader
+#       - xorriso [arm64 kfreebsd-i386 kfreebsd-amd64 hurd-i386 ppc64el]
+#               Used by grub-pc/grub-ieee1275-bin to create the CD-ROM images
+#	- grub-efi-amd64-bin (>= 2.00) [amd64], grub-efi-arm64-bin [arm64]
+#		EFI bootloader support.
+#	- grub-common [amd64 arm64]
+#		For the GRUB font.
+#	- debian-ports-archive-keyring [sh4 sparc64]
+#		Used for architectures hosted on debian-ports.org
+#	- grub-ieee1275-bin [ppc64el]
+#		IEEE1275 bootloader support.
+
+Package: debian-installer
+Architecture: any
+Description: Debian installer
+ This package currently only contains some documentation for the Debian
+ installer. We welcome suggestions about what else to put in it.
+
+Package: debian-installer-udebs
+XC-Package-Type: udeb
+Section: debian-installer
+Architecture: any
+Depends: ${udeb:Depends}
+Description: Metapackage depending on debian-installer's built-in udebs
+ This package depends on the set of udebs that the current debian-installer
+ build was built against, for easier version and migration tracking.

@@ -1,0 +1,1119 @@
+# Korean translation for debian-installer
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the debian-installer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-05 15:45-0800\n"
+"PO-Revision-Date: 2011-08-26 17:53+0000\n"
+"Last-Translator: Thedis <Unknown>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-04-16 16:01+0000\n"
+"X-Generator: Launchpad (build 16567)\n"
+
+#. type: Content of: <reference><title>
+#: help.xml:6
+msgid "Installer Boot Help Screens"
+msgstr "인스톨러 부팅 화면 도움말"
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:10
+msgid "<keycap>F1</keycap>"
+msgstr "<keycap>F1</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:11
+msgid "Welcome to ${DISTRIBUTION_NAME}!"
+msgstr "${DISTRIBUTION_NAME}에 오신 것을 환영합니다."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:18
+msgid ""
+"This is an installation system for ${DISTRIBUTION_NAME} "
+"${DISTRIBUTION_VERSION}. It was built on ${BUILD_DATE}."
+msgstr ""
+"${DISTRIBUTION_NAME} ${DISTRIBUTION_VERSION} 설치 시스템입니다. 빌드된 날짜"
+"는 ${BUILD_DATE} 입니다."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:23
+msgid ""
+"This is a live system for ${DISTRIBUTION_NAME} ${DISTRIBUTION_VERSION}. It "
+"was built on ${BUILD_DATE}."
+msgstr ""
+"${DISTRIBUTION_NAME} ${DISTRIBUTION_VERSION} 라이브 시스템입니다. 빌드된 날짜"
+"는 ${BUILD_DATE} 입니다."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><title>
+#: help.xml:28
+msgid "HELP INDEX"
+msgstr "도움말 목록"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:29
+msgid "KEY"
+msgstr "KEY"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:30
+msgid "TOPIC"
+msgstr "도움말 주제"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:33
+msgid "<link linkend=\"F1\"><keycap>F1</keycap></link>"
+msgstr "<link linkend=\"F1\"><keycap>F1</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:34
+msgid "This page, the help index."
+msgstr "현재 페이지로, 도움말 목록."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:38 help.xml:43
+msgid "<link linkend=\"F2\"><keycap>F2</keycap></link>"
+msgstr "<link linkend=\"F2\"><keycap>F2</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:39
+msgid "Prerequisites for installing ${DISTRIBUTION_NAME}."
+msgstr "${DISTRIBUTION_NAME} 설치에 필요한 사항."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:44
+msgid "Prerequisites for running ${DISTRIBUTION_NAME}."
+msgstr "${DISTRIBUTION_NAME}를 운영하기 위한 요건."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:48
+msgid "<link linkend=\"F3\"><keycap>F3</keycap></link>"
+msgstr "<link linkend=\"F3\"><keycap>F3</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:49
+msgid "Boot methods for special ways of using this system."
+msgstr "시스템을 사용하기위한 특별한 부팅방법"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:53
+msgid "<link linkend=\"F4\"><keycap>F4</keycap></link>"
+msgstr "<link linkend=\"F4\"><keycap>F4</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:54
+msgid "Additional boot methods; rescuing a broken system."
+msgstr "추가 부팅 방식:  망가진 시스템 복구하기"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:58
+msgid "<link linkend=\"F5\"><keycap>F5</keycap></link>"
+msgstr "<link linkend=\"F5\"><keycap>F5</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:59
+msgid "Special boot parameters, overview."
+msgstr "특수한 부팅 인자: 훑어보기"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:63 help.xml:384
+msgid "<link linkend=\"F6\"><keycap>F6</keycap></link>"
+msgstr "<link linkend=\"F6\"><keycap>F6</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:64
+msgid "Special boot parameters for special machines."
+msgstr "특수한 시스템을 위한 부팅 인자"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:68 help.xml:389
+msgid "<link linkend=\"F7\"><keycap>F7</keycap></link>"
+msgstr "<link linkend=\"F7\"><keycap>F7</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:69
+msgid "Special boot parameters for selected disk controllers."
+msgstr "일부 디스크 컨트롤러를 위한 부팅 인자"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:73 help.xml:78 help.xml:394 help.xml:399
+msgid "<link linkend=\"F8\"><keycap>F8</keycap></link>"
+msgstr "<link linkend=\"F8\"><keycap>F8</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:74
+msgid "Special boot parameters for the install system."
+msgstr "설치 시스템에서 사용할 부팅 인자"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:79
+msgid "Special boot parameters for the bootstrap system."
+msgstr "부트스트랩 시스템에서 사용할 부팅 인자"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:83
+msgid "<link linkend=\"F9\"><keycap>F9</keycap></link>"
+msgstr "<link linkend=\"F9\"><keycap>F9</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:84
+msgid "How to get help."
+msgstr "도움을 받으려면,"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:88
+msgid "<link linkend=\"F10\"><keycap>F10</keycap></link>"
+msgstr "<link linkend=\"F10\"><keycap>F10</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:89
+msgid "Copyrights and warranties."
+msgstr "저작권과 보증."
+
+#.  deliberately unindented 
+#. type: Content of: <reference><refentry><refsection><literallayout>
+#: help.xml:95
+#, no-wrap
+msgid ""
+"For F1-F9 type control and F then the digit 1-9\n"
+"For F10 type control and F then the digit 0\n"
+msgstr ""
+"F1-F9는 control과 F를 입력하고 숫자 1-9를 입력하세요.\n"
+"F10는 control과 F를 입력하고 숫자 0을 입력하세요.\n"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:100
+msgid "Press F2 through F10 for details, or ENTER to ${BOOTPROMPT}"
+msgstr ""
+"자세한 내용을 보기 위해서는 F2에서 F10을 누르거나, ${BOOTPROMPT}를 위해서 "
+"ENTER를 누르십시요."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:104
+msgid "Press F2 through F10 for details, or Escape to exit help."
+msgstr ""
+"자세한 내용을 보기 위해서는 F2에서 F10을 누르거나, 도움말을 빠져나오기 위해 "
+"Esc를 누르십시오."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:111
+msgid "<keycap>F2</keycap>"
+msgstr "<keycap>F2</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:112
+msgid "PREREQUISITES FOR INSTALLING UBUNTU"
+msgstr "Ubuntu를 설치하기 위한 요건."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:119
+msgid ""
+"You must have at least 32 megabytes of RAM to use this Ubuntu installer."
+msgstr ""
+"우분투 인스톨러 프로그램을 사용하기 위해서는 최소한 램 32MB가 필요합니다."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:123
+msgid ""
+"You should have space on your hard disk to create a new disk partition of at "
+"least 5 gigabytes to install a standard Ubuntu desktop system or at least "
+"500 megabytes for a minimal server installation. You'll need more disk space "
+"to install additional packages, depending on what you wish to do with your "
+"new Ubuntu system."
+msgstr ""
+"새 파티션을 생성하여 표준 우분투 데스크탑을 설치하시려면 하드디스크에 공간이 "
+"적어도 5 기가바이트 필요합니다.  최소 서버 설치를 한다면  적어도 500 메가바이"
+"트가 필요합니다. 패키지를 추가로 설치하실 경우 더 많은 공간을 필요로 하게 됩"
+"니다."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:131 help.xml:732
+msgid ""
+"See the Installation Manual or the FAQ for more information; both documents "
+"are available at the Ubuntu web site, <ulink url=\"http://www.ubuntu.com/\" /"
+">"
+msgstr ""
+"자세한 내용을 알고자 할 경우 설치 매뉴얼이나 FAQ를 참조하십시오. 이 문서들은 "
+"우분투 웹사이트에서 구하실 수 있습니다. <ulink url=\"http://www.ubuntu.com/"
+"\" />"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:137
+msgid ""
+"You must have at least 384 megabytes of RAM to use this Ubuntu live system."
+msgstr ""
+"이 우분투 라이브 시스템을 사용하기 위해서는 최소 384MB의 램이 필요합니다."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:142
+msgid ""
+"The live system does not require any space on your hard disk. However, "
+"existing Linux swap partitions on the disk will be used if available."
+msgstr ""
+"라이브 시스템 실행에는 어떤 하드디스크 공간도 필요하지 않습니다. 하지만 디스"
+"크에 이미 리눅스 스왑 파티션이  있다면 사용할 것입니다."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:147 help.xml:738
+msgid ""
+"See the FAQ for more information; this document is available at the Ubuntu "
+"web site, <ulink url=\"http://www.ubuntu.com/\" />"
+msgstr ""
+"자세한 내용은 FAQ를 참조하십시오. 이 문서는 우분투 웹사이트에서 구하실 수 있"
+"습니다. <ulink url=\"http://www.ubuntu.com/\" />"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:152
+msgid "Thank you for choosing Ubuntu!"
+msgstr "우분투를 선택해 주셔서 감사합니다!"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:156 help.xml:268 help.xml:314 help.xml:343 help.xml:417
+#: help.xml:524 help.xml:597 help.xml:687 help.xml:743 help.xml:799
+msgid ""
+"Press <phrase class=\"not-serial\">F1</phrase><phrase class=\"serial"
+"\">control and F then 1</phrase> for the help index, or ENTER to "
+"${BOOTPROMPT}"
+msgstr ""
+"도움말 목록을 보려면 <phrase class=\"not-serial\">F1</phrase><phrase class="
+"\"serial\">control과 F 후에 1</phrase>를 누르십시오. ${BOOTPROMPT}를 위해서"
+"는 ENTER를 누르십시오."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:161 help.xml:273 help.xml:319 help.xml:348 help.xml:422
+#: help.xml:529 help.xml:602 help.xml:692 help.xml:748 help.xml:804
+msgid "Press F1 for the help index, or Escape to exit help."
+msgstr ""
+"F1을 눌러 도움말 목록을 볼 수 있고, ESC를 누르면 도움말에서 빠져나올 수 있습"
+"니다."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:168
+msgid "<keycap>F3</keycap>"
+msgstr "<keycap>F3</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:169
+msgid "BOOT METHODS"
+msgstr "부팅 방식"
+
+#. type: Content of: <reference><refentry><refsection><title>
+#: help.xml:173
+msgid "Available boot methods:"
+msgstr "가능한 부팅 방식:"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:177
+msgid "install"
+msgstr "install"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:178 help.xml:210
+msgid "Install Ubuntu"
+msgstr "우분투 설치"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:180
+msgid "Start the installation -- this is the default option."
+msgstr "설치 시작 -- 기본 옵션입니다."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:185
+msgid "expert"
+msgstr "전문가"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:187
+msgid "Start the installation in expert mode, for maximum control."
+msgstr "자세한 부분까지 설정하기 위해, 전문가 모드로 설치합니다."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:192
+msgid "cli"
+msgstr "커맨드 라인 설치"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:193
+msgid "cli-expert"
+msgstr "커맨드 라인 설치 - 전문가"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:195
+msgid "Minimal command-line system install."
+msgstr "최소 커맨드 라인 시스템 설치"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:200
+msgid "live"
+msgstr "live"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:201
+msgid "Try Ubuntu without any change to your computer"
+msgstr "컴퓨터를 변경하지 않고 우분투를 사용해 보기"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:203
+msgid ""
+"Start the live system. If you wish, you can install it later using the "
+"\"Install\" icon on the desktop."
+msgstr ""
+"라이브 시스템을 시작합니다. 나중에 바탕 화면의 \"설치\" 아이콘을 눌러 설치할 "
+"수 있습니다."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:209
+msgid "live-install"
+msgstr "라이브 설치"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:212
+msgid "Start the installation."
+msgstr "설치 시작"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:228
+msgid "memtest"
+msgstr "memtest"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:229
+msgid "Test memory"
+msgstr "메모리 테스트"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:231
+msgid "Perform a memory test."
+msgstr "메모리 테스트를 실행합니다."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:237 help.xml:298
+msgid ""
+"To use one of these boot methods, type it at the prompt, optionally followed "
+"by any boot parameters. For example:"
+msgstr ""
+"이 부팅 방식들 중 하나를 사용하고 싶으면, 프롬프트에 입력하십시오. 필요하다"
+"면 그 뒤에 부팅 인자를 입력할 수도 있습니다. 예를 들면:"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:242
+#, no-wrap
+msgid "boot: install acpi=off"
+msgstr "boot: install acpi=off"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:243
+#, no-wrap
+msgid "boot: live acpi=off"
+msgstr "boot: live acpi=off"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:247
+msgid ""
+"If unsure, you should use the default boot method, with no special "
+"parameters, by simply pressing enter at the boot prompt."
+msgstr ""
+"잘 모르겠다면, 부팅 인자 없이 프롬프트에서 Enter 키를 눌러 기본 설치를 하십시"
+"오."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:252
+msgid ""
+"(\"Ubuntu\" may be replaced with other related operating system names. This "
+"help text is generic.)"
+msgstr ""
+"(\"우분투\" 대신 다른 비슷한 운영 체제의 이름을 넣을 수도 있습니다. 이 도움말"
+"은 우분투에 국한되지 않습니다.)"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:257 help.xml:307
+msgid ""
+"To use one of these boot methods, select it from the menu with the cursor "
+"keys. Press F4 to select alternative start-up and installation modes.  Press "
+"F6 to edit boot parameters. Press F6 again to select from a menu of commonly-"
+"used boot parameters."
+msgstr ""
+"이러한 시작 방법 중 하나를 사용하려면 화살표 키를 메뉴에서 선택하십시오. F4"
+"를 누르면 다른 시작과 설치 모드를 선택할 수 있습니다. F6 키를 누르면 부팅 매"
+"개변수를 편집할 수 있습니다. 또한 다시 F6을 누르면 자주 사용하는 부팅 매개변"
+"수를 메뉴에서 선택할 수 있습니다."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:264
+msgid ""
+"Except in expert mode, non-critical kernel boot messages are suppressed."
+msgstr ""
+"전문가 모드가 아니라면, 중요하지 않은 커널의 부트 메시지는 표시하지 않습니다."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:280 help.xml:326
+msgid "<keycap>F4</keycap>"
+msgstr "<keycap>F4</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:281 help.xml:327
+msgid "RESCUING A BROKEN SYSTEM"
+msgstr "망가진 시스템을 복구하기"
+
+#. type: Content of: <reference><refentry><refsection><title>
+#: help.xml:285
+msgid "Use one of these boot methods to rescue an existing install"
+msgstr "전에 설치했던 시스템을 복구하려면 이 부팅 방법 중 하나를 선택하십시오."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:289
+msgid "rescue"
+msgstr "rescue"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:290
+msgid "Rescue a broken system"
+msgstr "망가진 시스템을 복구"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:292
+msgid "Boot into rescue mode."
+msgstr "복구 모드로 부팅합니다."
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:303
+#, no-wrap
+msgid "boot: rescue acpi=off"
+msgstr "boot: rescue acpi=off"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:334
+msgid ""
+"There is no dedicated rescue mode on this disc. However, since the disc "
+"provides a complete user environment, it is possible to use the command-line "
+"and/or graphical tools provided to rescue a broken system, and to use a web "
+"browser to search for help. Extensive advice is available online for most "
+"kinds of problems that might cause your normal system to fail to boot "
+"correctly."
+msgstr ""
+"이 디스크에는 복구 전용 모드가 없습니다. 그러나 명령줄이나 그래픽 도구를 사용"
+"해 망가진 시스템을 복구할 수도 있고, 웹 브라우저를 사용해 도움말을 찾을 수도 "
+"있습니다. 시스템이 제대로 부팅되지 않아도 보통은 온라인으로 다양한 조언을 얻"
+"을 수 있습니다."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:355
+msgid "<keycap>F5</keycap>"
+msgstr "<keycap>F5</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:356
+msgid "SPECIAL BOOT PARAMETERS - OVERVIEW"
+msgstr "특수한 부팅 인자 - 개관"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:363
+msgid ""
+"On a few systems, you may need to specify a parameter at the <literal>boot:</"
+"literal> prompt in order to boot the system."
+msgstr ""
+"어떤 시스템에서는, 부팅하기 위해 <literal>boot:</literal> 프롬프트에 몇 가지 "
+"인자를 지정해야 할 수도 있습니다."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:367
+msgid ""
+"On a few systems, you may need to specify a parameter by pressing F6 in "
+"order to boot the system."
+msgstr ""
+"어떤 시스템에서는, 정상적으로 시작하려면 F6 키를 눌러 매개 변수를 기입해야 합"
+"니다."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:371
+msgid ""
+"For example, Linux may not be able to autodetect your hardware, and you may "
+"need to explicitly specify its location or type for it to be recognized."
+msgstr ""
+"예를 들면, 리눅스가 하드웨어를 자동으로 인식할 수 없어, 그 위치나 종류를 직"
+"접 기입해야 인식할 수도 있습니다."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:377
+msgid "For more information about what boot parameters you can use, press:"
+msgstr "사용할 수 있는 부팅 인자에 대해 더 알고 싶으면 다음을 입력하십시오:"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:385
+msgid "boot parameters for special machines"
+msgstr "특수한 시스템을 위한 부팅 인자"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:390
+msgid "boot parameters for various disk controllers"
+msgstr "여러 가지 디스크 컨트롤러를 위한 부팅 인자"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:395
+msgid "boot parameters understood by the install system"
+msgstr "설치 시스템에서 사용할 수 있는 부팅 인자"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:400
+msgid "boot parameters understood by the bootstrap system"
+msgstr "부트스트랩 시스템에서 사용할 부트 인자"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:405
+msgid ""
+"Many kernel modules are loaded dynamically by the installer, and parameters "
+"for those modules cannot be given on the command line. To be prompted for "
+"parameters when modules are loaded, boot in expert mode (see <link linkend="
+"\"F3\"><keycap>F3</keycap></link>)."
+msgstr ""
+"설치 프로그램은 많은 커널 모듈을 동적으로 불러오지만, 명령줄로 이 모듈들에 대"
+"해 인자를 부여할 수 없습니다. 모듈을 불러올 때 인자를 입력하려면 전문가 모드"
+"(<link linkend=\"F3\"><keycap>F3</keycap></link> 참조)로 부팅하십시오."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:412
+msgid ""
+"Many kernel modules are loaded dynamically by the bootstrap system, and "
+"parameters for those modules cannot be given on the command line."
+msgstr ""
+"부트스트랩 시스템은 많은 커널 모듈을 동적으로 불러오지만, 명령줄로 이 모듈들"
+"에 대해 인자를 부여할 수 없습니다."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:429
+msgid "<keycap>F6</keycap>"
+msgstr "<keycap>F6</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:430
+msgid "SPECIAL BOOT PARAMETERS - VARIOUS HARDWARE"
+msgstr "특수한 부팅 인자 - 다양한 하드웨어의 지원"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:437 help.xml:544 help.xml:615
+msgid ""
+"You can use the following boot parameters at the <literal>boot:</literal> "
+"prompt, in combination with the boot method (see <link linkend="
+"\"F3\"><keycap>F3</keycap></link>)."
+msgstr ""
+"아래의 매개변수를 부팅 방법과 함께 <literal>boot:</literal> 프롬프트에서 사용"
+"할 수 있습니다. <link linkend=\"F3\"><keycap>F3</keycap></link> 참조)"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:442 help.xml:549 help.xml:620
+msgid ""
+"You can use the following boot parameters by pressing F6, in combination "
+"with the boot method (see <link linkend=\"F3\"><keycap>F3</keycap></link>)."
+msgstr ""
+"F6 키를 눌러 아래의 매개변수를 부팅 방법과 함께 사용할 수 있습니다. (<link "
+"linkend=\"F3\"><keycap>F3</keycap></link> 참조)"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:446
+msgid "If you use hex numbers you have to use the 0x prefix (e.g., 0x300)."
+msgstr "16진수를 사용하려면 앞에 0x를 붙여야 합니다. (예: 0x300)"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:451 help.xml:555
+msgid "HARDWARE"
+msgstr "하드웨어"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:452 help.xml:556
+msgid "PARAMETER TO SPECIFY"
+msgstr "지정할 인자"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:455
+msgid "IBM PS/1 or ValuePoint (IDE disk)"
+msgstr "IBM PS/1이나 ValuePoint (IDE 디스크)"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:456
+msgid ""
+"<userinput>hd=<replaceable>cylinders</replaceable>,<replaceable>heads</"
+"replaceable>,<replaceable>sectors</replaceable></userinput>"
+msgstr ""
+"<userinput>hd=<replaceable>실린더</replaceable>,<replaceable>헤더</"
+"replaceable>,<replaceable>섹터</replaceable></userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:460
+msgid "Some IBM ThinkPads"
+msgstr "일부 IBM ThinkPad"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:461
+msgid "<userinput>floppy.floppy=thinkpad</userinput>"
+msgstr "<userinput>floppy.floppy=thinkpad</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:465
+msgid "Protect I/O port regions"
+msgstr "I/O 포트 보호"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:466
+msgid ""
+"<userinput>reserve=<replaceable>iobase</replaceable>,<replaceable>extent</"
+"replaceable></userinput><optional><userinput>,<replaceable>...</"
+"replaceable></userinput></optional>"
+msgstr ""
+"<userinput>reserve=<replaceable>iobase</replaceable>,<replaceable>extent</"
+"replaceable></userinput><optional><userinput>,<replaceable>...</"
+"replaceable></userinput></optional>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:470
+msgid "Laptops with screen display problems"
+msgstr "화면 출력에 문제가 있는 일부 노트북"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:471
+msgid "<userinput>vga=771</userinput>"
+msgstr "<userinput>vga=771</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:475
+msgid "Use first serial port at 9600 baud"
+msgstr "9600 보드에서 직렬 포트 1 사용"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:476
+msgid "<userinput>console=ttyS0,9600n8</userinput>"
+msgstr "<userinput>console=ttyS0,9600n8</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:480
+msgid "Force use of generic IDE driver"
+msgstr "강제로 표준 IDE 드라이버를 사용"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:481
+msgid "<userinput>all_generic_ide=1</userinput>"
+msgstr "<userinput>all_generic_ide=1</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:486
+msgid ""
+"Possible (temporary) workarounds for lockups or other hardware failures:"
+msgstr "하드웨어가 잠기거나 문제가 생겼을 때 사용할 수 있는 (일시적인) 차선책:"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:493
+msgid "disable buggy APIC interrupt routing"
+msgstr "버그가 많은 APIC interrupt routing 사용하지 않기"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:494
+msgid "<userinput>noapic nolapic</userinput>"
+msgstr "<userinput>noapic nolapic</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:498
+msgid "(partly) disable ACPI"
+msgstr "(부분적으로) ACPI를 해제"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:500
+msgid "<userinput>acpi=noirq</userinput> or <userinput>acpi=off</userinput>"
+msgstr "<userinput>acpi=noirq</userinput> 또는 <userinput>acpi=off</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:506
+msgid "disable USB"
+msgstr "USB 사용안함"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:507
+msgid "<userinput>nousb</userinput>"
+msgstr "<userinput>nousb</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:511
+msgid "poll for interrupts"
+msgstr "인터럽트를 기다림"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:512
+msgid "<userinput>irqpoll</userinput>"
+msgstr "<userinput>irqpoll</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:516 help.xml:589 help.xml:679
+msgid "For example:"
+msgstr "예를 들어:"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:519
+#, no-wrap
+msgid "boot: install vga=771 noapic nolapic"
+msgstr "boot: install vga=771 noapic nolapic"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:520
+#, no-wrap
+msgid "boot: live vga=771 noapic nolapic"
+msgstr "boot: live vga=771 noapic nolapic"
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:536
+msgid "<keycap>F7</keycap>"
+msgstr "<keycap>F7</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:537
+msgid "SPECIAL BOOT PARAMETERS - VARIOUS DISK DRIVES"
+msgstr "특수한 부팅 인자 - 다양한 디스크 드라이브"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:559
+msgid "Adaptec 151x, 152x"
+msgstr "Adaptec 151x, 152x"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:560
+msgid ""
+"<userinput>aha152x.aha152x=<replaceable>iobase</replaceable></"
+"userinput><optional><userinput>,<replaceable>irq</replaceable></"
+"userinput><optional><userinput>,<replaceable>scsi-id</replaceable></"
+"userinput><optional><userinput>,<replaceable>reconnect</replaceable></"
+"userinput></optional></optional></optional>"
+msgstr ""
+"<userinput>aha152x.aha152x=<replaceable>iobase</replaceable></"
+"userinput><optional><userinput>,<replaceable>irq</replaceable></"
+"userinput><optional><userinput>,<replaceable>scsi-id</replaceable></"
+"userinput><optional><userinput>,<replaceable>reconnect</replaceable></"
+"userinput></optional></optional></optional>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:564
+msgid "Adaptec 1542"
+msgstr "Adaptec 1542"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:565
+msgid ""
+"<userinput>aha1542.aha1542=<replaceable>iobase</replaceable></"
+"userinput><optional><userinput>,<replaceable>buson</replaceable>,"
+"<replaceable>busoff</replaceable></userinput><optional><userinput>,"
+"<replaceable>dmaspeed</replaceable></userinput></optional></optional>"
+msgstr ""
+"<userinput>aha1542.aha1542=<replaceable>iobase</replaceable></"
+"userinput><optional><userinput>,<replaceable>buson</replaceable>,"
+"<replaceable>busoff</replaceable></userinput><optional><userinput>,"
+"<replaceable>dmaspeed</replaceable></userinput></optional></optional>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:569
+msgid "Adaptec 274x, 284x"
+msgstr "Adaptec 274x, 284x"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:570
+msgid "<userinput>aic7xxx.aic7xxx=no_reset</userinput> (enabled if non-zero)"
+msgstr "<userinput>aic7xxx.aic7xxx=no_reset</userinput> (0일 때 사용안함)"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:574
+msgid "BusLogic SCSI Hosts"
+msgstr "BusLogic SCSI 호스트"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:575
+msgid ""
+"<userinput>BusLogic.BusLogic=<replaceable>iobase</replaceable></userinput>"
+msgstr ""
+"<userinput>BusLogic.BusLogic=<replaceable>iobase</replaceable></userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:579
+msgid "Certain DELL machines"
+msgstr "일부 DELL 컴퓨터"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:580
+msgid "<userinput>aic7xxx.aic7xxx=no_probe</userinput>"
+msgstr "<userinput>aic7xxx.aic7xxx=no_probe</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:585
+msgid ""
+"This list is incomplete, see the kernel's kernel-parameters.txt file for "
+"more."
+msgstr ""
+"이 목록은 완전하지 않으므로, 자세한 사항은 커널의 kernel-parameters.txt를 참"
+"조하십시오."
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:592
+#, no-wrap
+msgid "boot: install aic7xxx.aic7xxx=no_probe"
+msgstr "boot: install aic7xxx.aic7xxx=no_probe"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:593
+#, no-wrap
+msgid "boot: live aic7xxx.aic7xxx=no_probe"
+msgstr "boot: live aic7xxx.aic7xxx=no_probe"
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:609
+msgid "<keycap>F8</keycap>"
+msgstr "<keycap>F8</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:610
+msgid "SPECIAL BOOT PARAMETERS - INSTALLATION SYSTEM"
+msgstr "특수 부팅 인자 - 설치 시스템"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:624
+msgid "These parameters control how the installer works."
+msgstr "이 인자들은 설치 프로그램을 제어합니다."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:627
+msgid "These parameters control how the bootstrap system works."
+msgstr "이 인자들은 부트스트랩 시스템을 제어합니다."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:632
+msgid "RESULT"
+msgstr "결과"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:633
+msgid "PARAMETER"
+msgstr "인자"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:636
+msgid "Disable framebuffer"
+msgstr "프레임버퍼 사용 안 함"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:637
+msgid "<userinput>vga=normal fb=false</userinput>"
+msgstr "<userinput>vga=normal fb=false</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:641
+msgid "Don't start PCMCIA"
+msgstr "PCMCIA 사용 안 함"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:642
+msgid "<userinput>hw-detect/start_pcmcia=false</userinput>"
+msgstr "<userinput>hw-detect/start_pcmcia=false</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:646
+msgid "Force static network config"
+msgstr "강제로 네트워크 정적으로 설정"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:647
+msgid "<userinput>netcfg/disable_dhcp=true</userinput>"
+msgstr "<userinput>netcfg/disable_dhcp=true</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:651
+msgid "Set keyboard map"
+msgstr "키맵 설정"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:652
+msgid "<userinput>bootkbd=es</userinput>"
+msgstr "<userinput>bootkbd=es</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:656
+msgid "Select the Kubuntu desktop"
+msgstr "쿠분투 데스크탑을 선택"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:657
+msgid "<userinput>tasks=kubuntu-desktop</userinput>"
+msgstr "<userinput>작업=쿠분투-데스크탑</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:662
+msgid ""
+"Disable ACPI for PCI maps (handy for some HP servers and Via-based machines)"
+msgstr ""
+"PCI 맵의 ACPI를 사용하지 않습니다(일부 HP 서버나 Via 기반 머신에 유용합니다)"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:665
+msgid "<userinput>pci=noacpi</userinput>"
+msgstr "<userinput>pci=noacpi</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:669
+msgid "Use high contrast theme"
+msgstr "고대비 테마를 사용"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:670
+msgid "<userinput>theme=dark</userinput>"
+msgstr "<userinput>theme=dark</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:674
+msgid "Use Braille tty"
+msgstr "Braille 터미널 사용"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:675
+msgid ""
+"<userinput>brltty=<replaceable>driver</replaceable>,<replaceable>device</"
+"replaceable>,<replaceable>texttable</replaceable></userinput>"
+msgstr ""
+"<userinput>brltty=<replaceable>드라이버</replaceable>,<replaceable>장치</"
+"replaceable>,<replaceable>texttable</replaceable></userinput>"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:682
+#, no-wrap
+msgid "boot: install vga=normal fb=false"
+msgstr "boot: install vga=normal fb=false"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:683
+#, no-wrap
+msgid "boot: live pci=noacpi"
+msgstr "boot: live pci=noacpi"
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:699
+msgid "<keycap>F9</keycap>"
+msgstr "<keycap>F9</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:700
+msgid "GETTING HELP"
+msgstr "도움 받기"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:707
+msgid "If you can't install Ubuntu, don't despair!"
+msgstr "우분투를 설치하는데 실패하더라도 좌절하지 마십시오!"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:710
+msgid "If you can't start Ubuntu, don't despair!"
+msgstr "우분투를 시작하는데 실패하더라도 좌절하지 마십시오!"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:713
+msgid "The Ubuntu team is ready to help you!"
+msgstr "우분투 팀은 언제든 당신을 도와드리겠습니다!"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:716
+msgid ""
+"We are especially interested in hearing about installation problems, because "
+"in general they don't happen to only <emphasis>one</emphasis> person."
+msgstr ""
+"특히 설치 중에 겪을 수 있는 문제에 대해 알려주십시오. 설치 프로그램의 문제는 "
+"<emphasis>여러 사람</emphasis>에게 영향을 끼치기 때문입니다."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:721
+msgid ""
+"We are especially interested in hearing about startup problems, because in "
+"general they don't happen to only <emphasis>one</emphasis> person."
+msgstr ""
+"특히 시작 중에 겪을 수 있는 문제에 대해 알려주십시오. 이런 종류의 문제는 "
+"<emphasis>여러 사람</emphasis>에게 영향을 끼치기 때문입니다."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:725
+msgid ""
+"We've either already heard about your particular problem and can dispense a "
+"quick fix, or we would like to hear about it and work through it with you, "
+"and the next user who comes up with the same problem will profit from your "
+"experience!"
+msgstr ""
+"여러분이 겪고 계신 보고된 문제에 빠른 수정본을 드리거나 혹은 그런 문제점이 무"
+"엇인지 듣고 함께 해결할 수 있었으면 합니다, 그리고 여러분의 경험으로 부터 같"
+"은 문제를 겪고 있는 다른 사용자들에 도움이 될 것입니다."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:755
+msgid "<keycap>F10</keycap>"
+msgstr "<keycap>F10</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:756
+msgid "COPYRIGHTS AND WARRANTIES"
+msgstr "저작권과 보증"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:763
+msgid ""
+"Ubuntu is Copyright (C) 2004-2010 Canonical Ltd., and incorporates the work "
+"of many other original authors and contributors."
+msgstr ""
+"Ubuntu is Copyright (C) 2004-2010 Canonical Ltd., and incorporates the work "
+"of many other original authors and contributors."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:768
+msgid "The Ubuntu system is freely redistributable."
+msgstr "우분투 시스템은 누구나 자유롭게 배포할 수 있습니다."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:771
+msgid ""
+"After installation, the exact distribution terms for each package are "
+"described in the corresponding file /usr/share/doc/<replaceable>packagename</"
+"replaceable>/copyright."
+msgstr ""
+"설치가 끝나면, 각각의 꾸러미에 대한 정확한 배포 조건은 /usr/share/doc/"
+"<replaceable>꾸러미 이름</replaceable>/copyright에서 확인할 수 있습니다."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:776
+msgid ""
+"After startup, the exact distribution terms for each package are described "
+"in the corresponding file /usr/share/doc/<replaceable>packagename</"
+"replaceable>/copyright."
+msgstr ""
+"시스템 시작 후, 각각의 꾸러미에 대한 정확한 배포 조건은 /usr/share/doc/"
+"<replaceable>꾸러미 이름</replaceable>/copyright에서 확인할 수 있습니다."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:782
+msgid ""
+"Ubuntu comes with <emphasis>ABSOLUTELY NO WARRANTY</emphasis>, to the extent "
+"permitted by applicable law."
+msgstr ""
+"우분투는 법이 허용하는 한 <emphasis>어떤 보증도 하지 않습니다</emphasis>."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:787
+msgid ""
+"This installation system is based on the Debian installer. See <ulink url="
+"\"http://www.debian.org/\" /> for more details and information on the Debian "
+"project."
+msgstr ""
+"이 설치 시스템은 데비안 설치 프로그램에 바탕을 두고 있습니다. 데비안 프로젝트"
+"에 대한 자세한 정보는 <ulink url=\"http://www.debian.org/\" />를 참조하십시"
+"오."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:793
+msgid ""
+"This system is based on Debian. See <ulink url=\"http://www.debian.org/\" /> "
+"for more details and information on the Debian project."
+msgstr ""
+"이 시스템은 데비안을 바탕으로 만들어졌습니다. 데비안 프로젝트에 대한 자세한 "
+"정보는 <ulink url=\"http://www.debian.org/\" />를 참조하십시오."

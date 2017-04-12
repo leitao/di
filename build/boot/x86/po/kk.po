@@ -1,0 +1,1151 @@
+# Kazakh translation for debian-installer
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the debian-installer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-05 15:45-0800\n"
+"PO-Revision-Date: 2011-08-15 05:31+0000\n"
+"Last-Translator: jmb_kz <Unknown>\n"
+"Language-Team: Kazakh <kk@li.org>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-04-16 16:01+0000\n"
+"X-Generator: Launchpad (build 16567)\n"
+
+#. type: Content of: <reference><title>
+#: help.xml:6
+msgid "Installer Boot Help Screens"
+msgstr "Орнатылым көмекші суреттері"
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:10
+msgid "<keycap>F1</keycap>"
+msgstr "<keycap>F1</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:11
+msgid "Welcome to ${DISTRIBUTION_NAME}!"
+msgstr "${DISTRIBUTION_NAME} Қош келдіңіз!"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:18
+msgid ""
+"This is an installation system for ${DISTRIBUTION_NAME} "
+"${DISTRIBUTION_VERSION}. It was built on ${BUILD_DATE}."
+msgstr ""
+"Бұл ${DISTRIBUTION_NAME} ${DISTRIBUTION_VERSION} орнатылым жүйесі. Жиналым "
+"уақыты: ${BUILD_DATE}."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:23
+msgid ""
+"This is a live system for ${DISTRIBUTION_NAME} ${DISTRIBUTION_VERSION}. It "
+"was built on ${BUILD_DATE}."
+msgstr ""
+"Бұл ${DISTRIBUTION_NAME} ${DISTRIBUTION_VERSION} тірі (live) жүйесі. Жиналым "
+"уақыты: ${BUILD_DATE}."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><title>
+#: help.xml:28
+msgid "HELP INDEX"
+msgstr "КӨМЕКТІҢ МАЗМҰНЫ"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:29
+msgid "KEY"
+msgstr "ПЕРНЕ"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:30
+msgid "TOPIC"
+msgstr "ТАҚЫРЫП"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:33
+msgid "<link linkend=\"F1\"><keycap>F1</keycap></link>"
+msgstr "<link linkend=\"F1\"><keycap>F1</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:34
+msgid "This page, the help index."
+msgstr "Бұл көмектің мазмұн терезесі."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:38 help.xml:43
+msgid "<link linkend=\"F2\"><keycap>F2</keycap></link>"
+msgstr "<link linkend=\"F2\"><keycap>F2</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:39
+msgid "Prerequisites for installing ${DISTRIBUTION_NAME}."
+msgstr "${DISTRIBUTION_NAME} орнату үшін қажеттіліктер."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:44
+msgid "Prerequisites for running ${DISTRIBUTION_NAME}."
+msgstr "${DISTRIBUTION_NAME} жүктеу үшін қажеттіліктер."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:48
+msgid "<link linkend=\"F3\"><keycap>F3</keycap></link>"
+msgstr "<link linkend=\"F3\"><keycap>F3</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:49
+msgid "Boot methods for special ways of using this system."
+msgstr "Осы жүйені қолданыла келе, жүктелудің арнайы әдістері."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:53
+msgid "<link linkend=\"F4\"><keycap>F4</keycap></link>"
+msgstr "<link linkend=\"F4\"><keycap>F4</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:54
+msgid "Additional boot methods; rescuing a broken system."
+msgstr ""
+"Жүктелудің қосымша әдістері, қиралған (бұзылған) жүйені қалыпқа келтіру."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:58
+msgid "<link linkend=\"F5\"><keycap>F5</keycap></link>"
+msgstr "<link linkend=\"F5\"><keycap>F5</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:59
+msgid "Special boot parameters, overview."
+msgstr "Жүктелудің арнайы баптаулары, шолу."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:63 help.xml:384
+msgid "<link linkend=\"F6\"><keycap>F6</keycap></link>"
+msgstr "<link linkend=\"F6\"><keycap>F6</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:64
+msgid "Special boot parameters for special machines."
+msgstr "Жүктелудің арнайы баптаулары, арнайы машиналар."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:68 help.xml:389
+msgid "<link linkend=\"F7\"><keycap>F7</keycap></link>"
+msgstr "<link linkend=\"F7\"><keycap>F7</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:69
+msgid "Special boot parameters for selected disk controllers."
+msgstr "Жүктелудің арнайы баптаулары, ағымдағы дискілік контроллерлер үшін."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:73 help.xml:78 help.xml:394 help.xml:399
+msgid "<link linkend=\"F8\"><keycap>F8</keycap></link>"
+msgstr "<link linkend=\"F8\"><keycap>F8</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:74
+msgid "Special boot parameters for the install system."
+msgstr "Жүктелудің арнайы баптаулары, жүйені орнату үшін."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:79
+msgid "Special boot parameters for the bootstrap system."
+msgstr "Жүктелудің арнайы баптаулары, бастапқы жүйе жүктегіші үшін."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:83
+msgid "<link linkend=\"F9\"><keycap>F9</keycap></link>"
+msgstr "<link linkend=\"F9\"><keycap>F9</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:84
+msgid "How to get help."
+msgstr "Көмекті қалай алуға болады."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:88
+msgid "<link linkend=\"F10\"><keycap>F10</keycap></link>"
+msgstr "<link linkend=\"F10\"><keycap>F10</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:89
+msgid "Copyrights and warranties."
+msgstr "Авторлық құқықтар және кепілдік."
+
+#.  deliberately unindented 
+#. type: Content of: <reference><refentry><refsection><literallayout>
+#: help.xml:95
+#, no-wrap
+msgid ""
+"For F1-F9 type control and F then the digit 1-9\n"
+"For F10 type control and F then the digit 0\n"
+msgstr ""
+"F1-F9 үшін, алдымен Ctrl және F, кейін 1-9 сандардың кез-келгенін басыңыз\n"
+"F10 үшін, алдымен Ctrl және F, кейін 0 санын басыңыз\n"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:100
+msgid "Press F2 through F10 for details, or ENTER to ${BOOTPROMPT}"
+msgstr ""
+"Қосымша ақпарат үшін F2-F10, немесе ${BOOTPROMPT} үшін ENTER пернесін басыңыз"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:104
+msgid "Press F2 through F10 for details, or Escape to exit help."
+msgstr ""
+"Қосымша ақпарат үшін F2-F10, немесе көмектен шығу үшін Escape пернесін "
+"басыңыз."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:111
+msgid "<keycap>F2</keycap>"
+msgstr "<keycap>F2</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:112
+msgid "PREREQUISITES FOR INSTALLING UBUNTU"
+msgstr "UBUNTU ОРНАТУ ҚАЖЕТТІЛІКТЕРІ"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:119
+msgid ""
+"You must have at least 32 megabytes of RAM to use this Ubuntu installer."
+msgstr ""
+"Осы Ubuntu орнатушы бағдарламасын қолдану үшін, сізде ең аз дегенде 32 "
+"мегабайт оперативті жадыңыз болуы қажет."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:123
+msgid ""
+"You should have space on your hard disk to create a new disk partition of at "
+"least 5 gigabytes to install a standard Ubuntu desktop system or at least "
+"500 megabytes for a minimal server installation. You'll need more disk space "
+"to install additional packages, depending on what you wish to do with your "
+"new Ubuntu system."
+msgstr ""
+"Қалыпты Ubuntu жүйесі қатқыл дискіде өз бөлімін құру үшін, үстел үлгісіне "
+"тек 5 Гб жады, немесе серверлік үлгісіне 500 Мб жады қажет. Өзіңіздің "
+"таңдауларыңызға сай, яғни қосымша басқа бағдарламаларды орнатамын десеңіз "
+"қатқыл дискіде көбірек жады қажет болуы мүмкін."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:131 help.xml:732
+msgid ""
+"See the Installation Manual or the FAQ for more information; both documents "
+"are available at the Ubuntu web site, <ulink url=\"http://www.ubuntu.com/\" /"
+">"
+msgstr ""
+"Қосымша ақпарат алу үшін орнатылым бойынша Нұсқауын немесе FAQ құжаттарын "
+"қолданып көріңіз; Екі құжат та, Ubuntu сайтында жетімді: <ulink url=\"http://"
+"www.ubuntu.com/\" />"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:137
+msgid ""
+"You must have at least 384 megabytes of RAM to use this Ubuntu live system."
+msgstr ""
+"Ubuntu тірі (live) жүйесін қолдану үшін, сізде ең аз дегенде 384 мегабайт "
+"оперативті жадыңыз болуы қажет."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:142
+msgid ""
+"The live system does not require any space on your hard disk. However, "
+"existing Linux swap partitions on the disk will be used if available."
+msgstr ""
+"Ubuntu тірі (live) жүйесі сіздің қатқыл дискінің қеңістігін қажет етпейді. "
+"Бірақ та егер мүмкін болса, қатқыл дискідегі Linux қосымша жүктегіш (swap) "
+"бөлімдерін қолданады."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:147 help.xml:738
+msgid ""
+"See the FAQ for more information; this document is available at the Ubuntu "
+"web site, <ulink url=\"http://www.ubuntu.com/\" />"
+msgstr ""
+"Қосымша ақпарат алу үшін FAQ құжатын қолданып көріңіз; Бұл құжат Ubuntu "
+"сайтында жетімді: <ulink url=\"http://www.ubuntu.com/\" />"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:152
+msgid "Thank you for choosing Ubuntu!"
+msgstr "Ubuntu таңдағаныңызға рахмет!"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:156 help.xml:268 help.xml:314 help.xml:343 help.xml:417
+#: help.xml:524 help.xml:597 help.xml:687 help.xml:743 help.xml:799
+msgid ""
+"Press <phrase class=\"not-serial\">F1</phrase><phrase class=\"serial"
+"\">control and F then 1</phrase> for the help index, or ENTER to "
+"${BOOTPROMPT}"
+msgstr ""
+"Көмектің мазмұнына бару үшін <phrase class=\"not-serial\">F1</phrase><phrase "
+"class=\"serial\">control және F, кейін 1</phrase>, немесе ${BOOTPROMPT} үшін "
+"ENTER пернесін басыңыз"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:161 help.xml:273 help.xml:319 help.xml:348 help.xml:422
+#: help.xml:529 help.xml:602 help.xml:692 help.xml:748 help.xml:804
+msgid "Press F1 for the help index, or Escape to exit help."
+msgstr ""
+"Негізгі көмек мазмұнына өту үшін F1 пернесін, немесе көмектен шығу үшін "
+"Escape пернесін басыңыз."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:168
+msgid "<keycap>F3</keycap>"
+msgstr "<keycap>F3</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:169
+msgid "BOOT METHODS"
+msgstr "ЖҮКТЕУ ӘДІСТЕРІ"
+
+#. type: Content of: <reference><refentry><refsection><title>
+#: help.xml:173
+msgid "Available boot methods:"
+msgstr "Жетімді жүктеу әдістері:"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:177
+msgid "install"
+msgstr "орнату"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:178 help.xml:210
+msgid "Install Ubuntu"
+msgstr "Ubuntu орнату"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:180
+msgid "Start the installation -- this is the default option."
+msgstr "Орнатылымды бастау -- бұл баптау қалыпты болып келеді."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:185
+msgid "expert"
+msgstr "кеңейтілген"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:187
+msgid "Start the installation in expert mode, for maximum control."
+msgstr "Аса бақылау үшін орнатылымды кеңейтілген режимде бастау."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:192
+msgid "cli"
+msgstr "cli"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:193
+msgid "cli-expert"
+msgstr "cli-expert"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:195
+msgid "Minimal command-line system install."
+msgstr ""
+"Тек командалық жолы бар (графикалық интерфейссіз) минималды жүйе орнатылымы."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:200
+msgid "live"
+msgstr "тірі (live)"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:201
+msgid "Try Ubuntu without any change to your computer"
+msgstr "Ubuntu-мен компьютеріңізге орнатпай-ақ жұмыс істеу"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:203
+msgid ""
+"Start the live system. If you wish, you can install it later using the "
+"\"Install\" icon on the desktop."
+msgstr ""
+"Тірі жүйені жүктеңіз. Қаласаңыз жұмыс үстеліндегі \"Орнату...\" сілтеме "
+"қолданып орнатылымды кейінірек бастауыңыз болады."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:209
+msgid "live-install"
+msgstr "тірі-орнатылым (live-instal)"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:212
+msgid "Start the installation."
+msgstr "Орнатылымды бастау."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:228
+msgid "memtest"
+msgstr "memtest"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:229
+msgid "Test memory"
+msgstr "Оперативті жадын қателерге тексеру"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:231
+msgid "Perform a memory test."
+msgstr "Оперативті жадын қателерге тексеруін орындау."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:237 help.xml:298
+msgid ""
+"To use one of these boot methods, type it at the prompt, optionally followed "
+"by any boot parameters. For example:"
+msgstr ""
+"Осы жүктеу әдістерінің бірін қолдану үшін, таңдалған жүктелу әдісіне "
+"байланысты шыққан баптауларға қосымша толықтырып жазуыңызға болады. Мысалыға:"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:242
+#, no-wrap
+msgid "boot: install acpi=off"
+msgstr "boot: install acpi=off"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:243
+#, no-wrap
+msgid "boot: live acpi=off"
+msgstr "boot: live acpi=off"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:247
+msgid ""
+"If unsure, you should use the default boot method, with no special "
+"parameters, by simply pressing enter at the boot prompt."
+msgstr ""
+"Егер күдіктеп жатсаңыз, Enter пернесін басып, арнайы баптауларсыз қалыпты "
+"жүктеу әдісін қолдана аласыз."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:252
+msgid ""
+"(\"Ubuntu\" may be replaced with other related operating system names. This "
+"help text is generic.)"
+msgstr ""
+"(Бұл көмек файлы әмбебап. \"Ubuntu\" сөзін туысқанды операциялық жүйелер "
+"атымен алмастырылуға болады.)"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:257 help.xml:307
+msgid ""
+"To use one of these boot methods, select it from the menu with the cursor "
+"keys. Press F4 to select alternative start-up and installation modes.  Press "
+"F6 to edit boot parameters. Press F6 again to select from a menu of commonly-"
+"used boot parameters."
+msgstr ""
+"Ұсынылып отырған жүктеу әдістерінің біреуін қолдану үшін, бағыт пернелер "
+"көмегімен мәзірден қажеттісін таңдаңыз. F4 пернесін басу арқылы балама "
+"жүктеу және орнатылым режимдерін таңдауға болады. F6 пернесімен жүктеу "
+"баптауларын өзгертуге болады. Екі рет басылған F6 пернесі, үлгілік жүктелу "
+"баптаулар мәзірін шығарады."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:264
+msgid ""
+"Except in expert mode, non-critical kernel boot messages are suppressed."
+msgstr ""
+"Түйіннің жүктелу кезіндегі аса маңызды емес мәлімдемелер тек кеңейтілген "
+"режимде шығарылады."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:280 help.xml:326
+msgid "<keycap>F4</keycap>"
+msgstr "<keycap>F4</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:281 help.xml:327
+msgid "RESCUING A BROKEN SYSTEM"
+msgstr "ҚҰЛАҒАН (БҰЗЫЛҒАН) ЖҮЙЕНІ ҚАЙТА ҚАЛЫПҚА КЕЛТІРУ"
+
+#. type: Content of: <reference><refentry><refsection><title>
+#: help.xml:285
+msgid "Use one of these boot methods to rescue an existing install"
+msgstr ""
+"Бар орнатылымды қайта қалпына келтіру үшін, келесі әдістердің біреуін "
+"таңдап, қолданыңыз"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:289
+msgid "rescue"
+msgstr "қайта қалыпқа келтіру (rescue)"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:290
+msgid "Rescue a broken system"
+msgstr "Құлаған (бұзылған) жүйені қайта қалыпқа келтіру"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:292
+msgid "Boot into rescue mode."
+msgstr "Қалыпқа келтіру режимінде жүктелу."
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:303
+#, no-wrap
+msgid "boot: rescue acpi=off"
+msgstr "boot: rescue acpi=off"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:334
+msgid ""
+"There is no dedicated rescue mode on this disc. However, since the disc "
+"provides a complete user environment, it is possible to use the command-line "
+"and/or graphical tools provided to rescue a broken system, and to use a web "
+"browser to search for help. Extensive advice is available online for most "
+"kinds of problems that might cause your normal system to fail to boot "
+"correctly."
+msgstr ""
+"Бұл дискіде бөлек құлаған (бұзылған) жүйені қалыпқа келтіру режимі жоқ. "
+"Бірақ та осы диск толық пайдаланушылық ортасын ұсынғандықтан, сіз "
+"коммандалық жол және/немесе графикалық бағдарламалар көмегімен құлаған "
+"(бұзылған) жүйені қайта қалыпқа келтіре аласыз, сонымен қоса қосымша көмекті "
+"веб-шолғыш көмегімен алуыңызға болады. Көптеген мәселелердің шешілу ақылдары "
+"және әдістері, толығымен онлайн түрінде жетімді."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:355
+msgid "<keycap>F5</keycap>"
+msgstr "<keycap>F5</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:356
+msgid "SPECIAL BOOT PARAMETERS - OVERVIEW"
+msgstr "АРНАЙЫ ЖҮКТЕЛУ БАПТАУЛАРЫ - ШОЛУ"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:363
+msgid ""
+"On a few systems, you may need to specify a parameter at the <literal>boot:</"
+"literal> prompt in order to boot the system."
+msgstr ""
+"Кейбір жүйелерде бәрі ойдағыдай болу үшін, қосымша, жүктеу баптауларын, "
+"<literal>boot:</literal> шақырыс кезінде көрсету керек."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:367
+msgid ""
+"On a few systems, you may need to specify a parameter by pressing F6 in "
+"order to boot the system."
+msgstr ""
+"Кейбір жүйелерде бәрі ойдағыдай болу үшін, қосымша, жүктеу баптауларын F6 "
+"пернесінің басу арқылы көрсету керек."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:371
+msgid ""
+"For example, Linux may not be able to autodetect your hardware, and you may "
+"need to explicitly specify its location or type for it to be recognized."
+msgstr ""
+"Мысалыға, Linux сіздің құрылғылардың бәрін анықтамауы да мүмкін, сол үшін "
+"сіз анықталмаған құрылғылардың орналысуын немесе түрін таңдауыңыз қажет "
+"болады."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:377
+msgid "For more information about what boot parameters you can use, press:"
+msgstr ""
+"Қолдануға болатын жүктелу баптаулар туралы қосымша ақпарат ала алу үшін, "
+"мынаны басыңыз:"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:385
+msgid "boot parameters for special machines"
+msgstr "арнайы компьютерлерге жүктелу баптаулары"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:390
+msgid "boot parameters for various disk controllers"
+msgstr "кейбір дискілік басқармалар (контроллерлер) үшін жүктелу баптаулары"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:395
+msgid "boot parameters understood by the install system"
+msgstr "орнатқыш бағдарламамен анықталған жүктелу баптаулары"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:400
+msgid "boot parameters understood by the bootstrap system"
+msgstr "бастапқы жүктелу жүйесі бағдарламамен анықталған жүктелу баптаулары"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:405
+msgid ""
+"Many kernel modules are loaded dynamically by the installer, and parameters "
+"for those modules cannot be given on the command line. To be prompted for "
+"parameters when modules are loaded, boot in expert mode (see <link linkend="
+"\"F3\"><keycap>F3</keycap></link>)."
+msgstr ""
+"Орнатқыш бағдарламасы көптеген модульдерді динамикалық түрде жүктейді. "
+"Сондықтан олардың баптауларын командалық жол арқылы енгізу мүмкін емес. "
+"Модульдер жүктелу кезінде баптауларды енгізу үшін кеңейтілген режимде "
+"жүктелуіңіз қажет (<link linkend=\"F3\"><keycap>F3</keycap></link> пернесін "
+"басып көріңіз)."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:412
+msgid ""
+"Many kernel modules are loaded dynamically by the bootstrap system, and "
+"parameters for those modules cannot be given on the command line."
+msgstr ""
+"Бастапқы жүктелу жүйесі көптеген модульдерді динамикалық түрде жүктейді. "
+"Сондықтан олардың баптауларын командалық жол арқылы енгізу мүмкін емес."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:429
+msgid "<keycap>F6</keycap>"
+msgstr "<keycap>F6</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:430
+msgid "SPECIAL BOOT PARAMETERS - VARIOUS HARDWARE"
+msgstr "АРНАЙЫ ЖҮКТЕЛУ ПАРАМЕТРЛЕРІ - ӘР ТҮРЛІ ҚҰРЫЛҒЫЛАР"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:437 help.xml:544 help.xml:615
+msgid ""
+"You can use the following boot parameters at the <literal>boot:</literal> "
+"prompt, in combination with the boot method (see <link linkend="
+"\"F3\"><keycap>F3</keycap></link>)."
+msgstr ""
+"<literal>boot:</literal> шақырылымда сіз жүктелу әдістерімен бірге, келесі "
+"жүктелу баптауларын қолдануыңызға болады (<link linkend=\"F3\"><keycap>F3</"
+"keycap></link> пернесін басып көріңіз)."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:442 help.xml:549 help.xml:620
+msgid ""
+"You can use the following boot parameters by pressing F6, in combination "
+"with the boot method (see <link linkend=\"F3\"><keycap>F3</keycap></link>)."
+msgstr ""
+"F6 пернесін басу арқылы сіз келесі жүктелу баптауларын, жүктелу әдістерімен "
+"бірге қолдануыңызға болады (<link linkend=\"F3\"><keycap>F3</keycap></link> "
+"пернесін басып көріңіз)."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:446
+msgid "If you use hex numbers you have to use the 0x prefix (e.g., 0x300)."
+msgstr ""
+"Егер сіз он алтылық сандық жүйені қолданамын десеңіз, онда 0x префиксін "
+"қолдануыңыз тиістісіз (мысалы, 0x300)."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:451 help.xml:555
+msgid "HARDWARE"
+msgstr "ҚҰРЫЛҒЫЛАР"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:452 help.xml:556
+msgid "PARAMETER TO SPECIFY"
+msgstr "ЕНГІЗІЛЕТІН БАПТАУ"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:455
+msgid "IBM PS/1 or ValuePoint (IDE disk)"
+msgstr "IBM PS/1 немесе ValuePoint (IDE дискісі)"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:456
+msgid ""
+"<userinput>hd=<replaceable>cylinders</replaceable>,<replaceable>heads</"
+"replaceable>,<replaceable>sectors</replaceable></userinput>"
+msgstr ""
+"<userinput>hd=<replaceable>цилиндрлер</replaceable>,<replaceable>бастиектер</"
+"replaceable>,<replaceable>секторлар</replaceable></userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:460
+msgid "Some IBM ThinkPads"
+msgstr "Кейбір IBM ThinkPad-тар"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:461
+msgid "<userinput>floppy.floppy=thinkpad</userinput>"
+msgstr "<userinput>floppy.floppy=thinkpad</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:465
+msgid "Protect I/O port regions"
+msgstr "I/O порттарын қорғау"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:466
+msgid ""
+"<userinput>reserve=<replaceable>iobase</replaceable>,<replaceable>extent</"
+"replaceable></userinput><optional><userinput>,<replaceable>...</"
+"replaceable></userinput></optional>"
+msgstr ""
+"<userinput>reserve=<replaceable>iobase</replaceable>,<replaceable>extent</"
+"replaceable></userinput><optional><userinput>,<replaceable>...</"
+"replaceable></userinput></optional>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:470
+msgid "Laptops with screen display problems"
+msgstr "Экранға шығару мәселелері бар ноутбуктар"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:471
+msgid "<userinput>vga=771</userinput>"
+msgstr "<userinput>vga=771</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:475
+msgid "Use first serial port at 9600 baud"
+msgstr "9600 бодтағы бірінші сериялық портты қолдану"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:476
+msgid "<userinput>console=ttyS0,9600n8</userinput>"
+msgstr "<userinput>console=ttyS0,9600n8</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:480
+msgid "Force use of generic IDE driver"
+msgstr "Негізгі IDE драйверін қолдану"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:481
+msgid "<userinput>all_generic_ide=1</userinput>"
+msgstr "<userinput>all_generic_ide=1</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:486
+msgid ""
+"Possible (temporary) workarounds for lockups or other hardware failures:"
+msgstr ""
+"Бөгеттеу кезінде немесе басқа да аппаратты қауыздардан уақытша айналып шығу "
+"мүмкін болатын әдістер:"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:493
+msgid "disable buggy APIC interrupt routing"
+msgstr "қате болған APIC үзілістер бағдарларын өшіру"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:494
+msgid "<userinput>noapic nolapic</userinput>"
+msgstr "<userinput>noapic nolapic</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:498
+msgid "(partly) disable ACPI"
+msgstr "ACPI өшіру (жартылай)"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:500
+msgid "<userinput>acpi=noirq</userinput> or <userinput>acpi=off</userinput>"
+msgstr ""
+"<userinput>acpi=noirq</userinput> немесе <userinput>acpi=off</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:506
+msgid "disable USB"
+msgstr "USB-ді өшіру"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:507
+msgid "<userinput>nousb</userinput>"
+msgstr "<userinput>nousb</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:511
+msgid "poll for interrupts"
+msgstr "үзілістер сұраулары"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:512
+msgid "<userinput>irqpoll</userinput>"
+msgstr "<userinput>irqpoll</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:516 help.xml:589 help.xml:679
+msgid "For example:"
+msgstr "Мысалыға:"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:519
+#, no-wrap
+msgid "boot: install vga=771 noapic nolapic"
+msgstr "boot: install vga=771 noapic nolapic"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:520
+#, no-wrap
+msgid "boot: live vga=771 noapic nolapic"
+msgstr "boot: live vga=771 noapic nolapic"
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:536
+msgid "<keycap>F7</keycap>"
+msgstr "<keycap>F7</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:537
+msgid "SPECIAL BOOT PARAMETERS - VARIOUS DISK DRIVES"
+msgstr "АРНАЙЫ ЖҮКТЕЛУ БАПТАУЛАРЫ - ӘР ТҮРЛІ ДИСКОВОДТАР"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:559
+msgid "Adaptec 151x, 152x"
+msgstr "Adaptec 151x, 152x"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:560
+msgid ""
+"<userinput>aha152x.aha152x=<replaceable>iobase</replaceable></"
+"userinput><optional><userinput>,<replaceable>irq</replaceable></"
+"userinput><optional><userinput>,<replaceable>scsi-id</replaceable></"
+"userinput><optional><userinput>,<replaceable>reconnect</replaceable></"
+"userinput></optional></optional></optional>"
+msgstr ""
+"<userinput>aha152x.aha152x=<replaceable>iobase</replaceable></"
+"userinput><optional><userinput>,<replaceable>irq</replaceable></"
+"userinput><optional><userinput>,<replaceable>scsi-id</replaceable></"
+"userinput><optional><userinput>,<replaceable>reconnect</replaceable></"
+"userinput></optional></optional></optional>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:564
+msgid "Adaptec 1542"
+msgstr "Adaptec 1542"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:565
+msgid ""
+"<userinput>aha1542.aha1542=<replaceable>iobase</replaceable></"
+"userinput><optional><userinput>,<replaceable>buson</replaceable>,"
+"<replaceable>busoff</replaceable></userinput><optional><userinput>,"
+"<replaceable>dmaspeed</replaceable></userinput></optional></optional>"
+msgstr ""
+"<userinput>aha1542.aha1542=<replaceable>iobase</replaceable></"
+"userinput><optional><userinput>,<replaceable>buson</replaceable>,"
+"<replaceable>busoff</replaceable></userinput><optional><userinput>,"
+"<replaceable>dmaspeed</replaceable></userinput></optional></optional>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:569
+msgid "Adaptec 274x, 284x"
+msgstr "Adaptec 274x, 284x"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:570
+msgid "<userinput>aic7xxx.aic7xxx=no_reset</userinput> (enabled if non-zero)"
+msgstr ""
+"<userinput>aic7xxx.aic7xxx=no_reset</userinput> (нөль саны болмаса, қосылған "
+"деген сөз)"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:574
+msgid "BusLogic SCSI Hosts"
+msgstr "SCSI BusLogic хосттары"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:575
+msgid ""
+"<userinput>BusLogic.BusLogic=<replaceable>iobase</replaceable></userinput>"
+msgstr ""
+"<userinput>BusLogic.BusLogic=<replaceable>iobase</replaceable></userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:579
+msgid "Certain DELL machines"
+msgstr "Кейбір DELL компьютерлері"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:580
+msgid "<userinput>aic7xxx.aic7xxx=no_probe</userinput>"
+msgstr "<userinput>aic7xxx.aic7xxx=no_probe</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:585
+msgid ""
+"This list is incomplete, see the kernel's kernel-parameters.txt file for "
+"more."
+msgstr ""
+"Бұл тізім толық емес, қосымша ақпарат алу үшін құжаттама kernel-parameters."
+"txt файлы ашып қараңыз."
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:592
+#, no-wrap
+msgid "boot: install aic7xxx.aic7xxx=no_probe"
+msgstr "boot: install aic7xxx.aic7xxx=no_probe"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:593
+#, no-wrap
+msgid "boot: live aic7xxx.aic7xxx=no_probe"
+msgstr "boot: live aic7xxx.aic7xxx=no_probe"
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:609
+msgid "<keycap>F8</keycap>"
+msgstr "<keycap>F8</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:610
+msgid "SPECIAL BOOT PARAMETERS - INSTALLATION SYSTEM"
+msgstr "АРНАЙЫ ЖҮКТЕЛУ БАПТАУЛАРЫ - ОРНАТҚЫШ ЖҮЙЕ (БАСТАПҚЫ ЖҮКТЕГІШ)"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:624
+msgid "These parameters control how the installer works."
+msgstr "Бұл баптаулар орнатылым бағдарламасының жұмысын басқарады."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:627
+msgid "These parameters control how the bootstrap system works."
+msgstr "Бұл баптаулар бастапқы жүктеу жүйесінің жұмысын басқарады."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:632
+msgid "RESULT"
+msgstr "НӘТИЖЕ"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:633
+msgid "PARAMETER"
+msgstr "БАПТАУ"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:636
+msgid "Disable framebuffer"
+msgstr "framebuffer-ді өшіру"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:637
+msgid "<userinput>vga=normal fb=false</userinput>"
+msgstr "<userinput>vga=normal fb=false</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:641
+msgid "Don't start PCMCIA"
+msgstr "PCMCIA қоспау"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:642
+msgid "<userinput>hw-detect/start_pcmcia=false</userinput>"
+msgstr "<userinput>hw-detect/start_pcmcia=false</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:646
+msgid "Force static network config"
+msgstr "Желінің статикалық конфигурациясын қолдану"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:647
+msgid "<userinput>netcfg/disable_dhcp=true</userinput>"
+msgstr "<userinput>netcfg/disable_dhcp=true</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:651
+msgid "Set keyboard map"
+msgstr "Пернетатаның тілін таңдау"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:652
+msgid "<userinput>bootkbd=es</userinput>"
+msgstr "<userinput>bootkbd=es</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:656
+msgid "Select the Kubuntu desktop"
+msgstr "Kubuntu жұмыс ортасын таңдау"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:657
+msgid "<userinput>tasks=kubuntu-desktop</userinput>"
+msgstr "<userinput>tasks=kubuntu-desktop</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:662
+msgid ""
+"Disable ACPI for PCI maps (handy for some HP servers and Via-based machines)"
+msgstr ""
+"ACPI-ді PCI карталары үшін өшіру (кейбір HP серверлеріне және VIA-"
+"негізделген компьютерлерде қолдануға пайдалы)"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:665
+msgid "<userinput>pci=noacpi</userinput>"
+msgstr "<userinput>pci=noacpi</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:669
+msgid "Use high contrast theme"
+msgstr "Жоғары контрастты безендіру тақырыбын қолдану"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:670
+msgid "<userinput>theme=dark</userinput>"
+msgstr "<userinput>theme=dark</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:674
+msgid "Use Braille tty"
+msgstr "Брайль интерфейсін қолдану"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:675
+msgid ""
+"<userinput>brltty=<replaceable>driver</replaceable>,<replaceable>device</"
+"replaceable>,<replaceable>texttable</replaceable></userinput>"
+msgstr ""
+"<userinput>brltty=<replaceable>driver</replaceable>,<replaceable>device</"
+"replaceable>,<replaceable>texttable</replaceable></userinput>"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:682
+#, no-wrap
+msgid "boot: install vga=normal fb=false"
+msgstr "boot: install vga=normal fb=false"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:683
+#, no-wrap
+msgid "boot: live pci=noacpi"
+msgstr "boot: live pci=noacpi"
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:699
+msgid "<keycap>F9</keycap>"
+msgstr "<keycap>F9</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:700
+msgid "GETTING HELP"
+msgstr "КӨМЕКТІ АЛУ"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:707
+msgid "If you can't install Ubuntu, don't despair!"
+msgstr "Егер де сіз Ubuntu-ды орната алмай жатсаңыз, өкінбеңіз!"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:710
+msgid "If you can't start Ubuntu, don't despair!"
+msgstr "Егер де сіз Ubuntu-ды жүктелу алмай жатсаңыз, өкінбеңіз!"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:713
+msgid "The Ubuntu team is ready to help you!"
+msgstr "Ubuntu тобы әрқашан да көмек беруге дайын!"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:716
+msgid ""
+"We are especially interested in hearing about installation problems, because "
+"in general they don't happen to only <emphasis>one</emphasis> person."
+msgstr ""
+"Орнатылыммен кезінде туындаған мәселелерді табуына біз аса мән береміз. "
+"Әдетте осындай, ұқсас мәселелер тек <emphasis>бір</emphasis> адамда пайда "
+"бола бермейді."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:721
+msgid ""
+"We are especially interested in hearing about startup problems, because in "
+"general they don't happen to only <emphasis>one</emphasis> person."
+msgstr ""
+"Жүктелу кезінде туындаған мәселелердің табуына біз аса мән береміз. Әдетте "
+"осындай, ұқсас мәселелер тек <emphasis>бір</emphasis> адамда пайда бола "
+"бермейді."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:725
+msgid ""
+"We've either already heard about your particular problem and can dispense a "
+"quick fix, or we would like to hear about it and work through it with you, "
+"and the next user who comes up with the same problem will profit from your "
+"experience!"
+msgstr ""
+"Мүмкін біз дәл осы қате жайлы білетін де шығармыз, онда біз оның жөндеуі "
+"жылдамырақ болуы мүмкін. Әйтпесе, біз ол қайте жайлы білгіміз келіп тұр, "
+"және оның шешуін сізбен бірге іздеуге дайынбыз. Кейінірек бұл қатеге тиісті "
+"жиналған тәжірибеңіз, дәл осындай қате пайда болған басқа пайдаланушыларға "
+"көмектесетін болады!"
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:755
+msgid "<keycap>F10</keycap>"
+msgstr "<keycap>F10</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:756
+msgid "COPYRIGHTS AND WARRANTIES"
+msgstr "АВТОРЛЫҚ ҚҰҚЫҚТАРЫ МЕН КЕПІЛДІКТЕР"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:763
+msgid ""
+"Ubuntu is Copyright (C) 2004-2010 Canonical Ltd., and incorporates the work "
+"of many other original authors and contributors."
+msgstr ""
+"Ubuntu-дың авторлық құқығы қорғарғалған (C) 2004-2010 Canonical Ltd., және "
+"көптеген басқа да авторлар мен қатысушылардың жұмыстарын біріктіреді."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:768
+msgid "The Ubuntu system is freely redistributable."
+msgstr "Ubuntu еркін таратылатын жүйе болып келеді."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:771
+msgid ""
+"After installation, the exact distribution terms for each package are "
+"described in the corresponding file /usr/share/doc/<replaceable>packagename</"
+"replaceable>/copyright."
+msgstr ""
+"Орнатылым біткеннен кейін, әрбір пакеттің нақты тарату туралы келісімдері /"
+"usr/share/doc/<replaceable>пакет аты</replaceable>/copyright сәйкес файлда "
+"сипатталған."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:776
+msgid ""
+"After startup, the exact distribution terms for each package are described "
+"in the corresponding file /usr/share/doc/<replaceable>packagename</"
+"replaceable>/copyright."
+msgstr ""
+"Жүктелу біткеннен кейін, әрбір пакеттің нақты тарату туралы келісімдері /usr/"
+"share/doc/<replaceable>пакет аты</replaceable>/copyright сәйкес файлда "
+"сипатталған."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:782
+msgid ""
+"Ubuntu comes with <emphasis>ABSOLUTELY NO WARRANTY</emphasis>, to the extent "
+"permitted by applicable law."
+msgstr ""
+"Сәйкес заңнамаларда анықталғандай, Ubuntu <emphasis>ЕШБІР КЕПІЛДІКСІЗ</"
+"emphasis> таратылады."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:787
+msgid ""
+"This installation system is based on the Debian installer. See <ulink url="
+"\"http://www.debian.org/\" /> for more details and information on the Debian "
+"project."
+msgstr ""
+"Бұл орнатылым жүейсі Debian орнатқыш бағдарламасынан негізделген. Debian "
+"жобасы туралы көбірек осы жерде таба аласыз <ulink url=\"http://www.debian."
+"org/\" />."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:793
+msgid ""
+"This system is based on Debian. See <ulink url=\"http://www.debian.org/\" /> "
+"for more details and information on the Debian project."
+msgstr ""
+"Бұл операциялық жүйе Debian-нан негізделіп жасалған. Debian жобасы туралы "
+"көбірек осы жерде таба аласыз <ulink url=\"http://www.debian.org/\" />."

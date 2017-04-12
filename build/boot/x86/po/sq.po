@@ -1,0 +1,1140 @@
+# Albanian translation for debian-installer
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the debian-installer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-05 15:45-0800\n"
+"PO-Revision-Date: 2011-07-14 14:12+0000\n"
+"Last-Translator: Vilson Gjeci <vilsongjeci@gmail.com>\n"
+"Language-Team: Albanian <sq@li.org>\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-04-16 16:01+0000\n"
+"X-Generator: Launchpad (build 16567)\n"
+
+#. type: Content of: <reference><title>
+#: help.xml:6
+msgid "Installer Boot Help Screens"
+msgstr "Ekranet e Ndihmës së Nisjes së Instaluesit"
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:10
+msgid "<keycap>F1</keycap>"
+msgstr "<keycap>F1</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:11
+msgid "Welcome to ${DISTRIBUTION_NAME}!"
+msgstr "Mirëseerdhët në ${DISTRIBUTION_NAME}!"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:18
+msgid ""
+"This is an installation system for ${DISTRIBUTION_NAME} "
+"${DISTRIBUTION_VERSION}. It was built on ${BUILD_DATE}."
+msgstr ""
+"Ka është sistemi i instalimit për {DISTRIBUTION_NAME} "
+"${DISTRIBUTION_VERSION}. Ai u ndërtua në ${BUILD_DATE}."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:23
+msgid ""
+"This is a live system for ${DISTRIBUTION_NAME} ${DISTRIBUTION_VERSION}. It "
+"was built on ${BUILD_DATE}."
+msgstr ""
+"Ky është një sistem i drejtpërdrejtë për ${DISTRIBUTION_NAME} "
+"${DISTRIBUTION_VERSION}. Ai u ndërtua në ${BUILD_DATE}."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><title>
+#: help.xml:28
+msgid "HELP INDEX"
+msgstr "TREGUESI I NDIHMËS"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:29
+msgid "KEY"
+msgstr "ÇELËSI"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:30
+msgid "TOPIC"
+msgstr "TEMA"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:33
+msgid "<link linkend=\"F1\"><keycap>F1</keycap></link>"
+msgstr "<link linkend=\"F1\"><keycap>F1</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:34
+msgid "This page, the help index."
+msgstr "Kjo faqe, treguesi i ndihmës."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:38 help.xml:43
+msgid "<link linkend=\"F2\"><keycap>F2</keycap></link>"
+msgstr "<link linkend=\"F2\"><keycap>F2</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:39
+msgid "Prerequisites for installing ${DISTRIBUTION_NAME}."
+msgstr "Kërkesat paraprake për të instaluar ${DISTRIBUTION_NAME}."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:44
+msgid "Prerequisites for running ${DISTRIBUTION_NAME}."
+msgstr "Kërkesat paraprake për të nisur ${DISTRIBUTION_NAME}."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:48
+msgid "<link linkend=\"F3\"><keycap>F3</keycap></link>"
+msgstr "<link linkend=\"F3\"><keycap>F3</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:49
+msgid "Boot methods for special ways of using this system."
+msgstr "Metoda nisjeje për mënyra të veçanta të përdorimit të sistemit."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:53
+msgid "<link linkend=\"F4\"><keycap>F4</keycap></link>"
+msgstr "<link linkend=\"F4\"><keycap>F4</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:54
+msgid "Additional boot methods; rescuing a broken system."
+msgstr "Metoda nisjeje shtesë: të shpëtosh një sistem të dëmtuar."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:58
+msgid "<link linkend=\"F5\"><keycap>F5</keycap></link>"
+msgstr "<link linkend=\"F5\"><keycap>F5</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:59
+msgid "Special boot parameters, overview."
+msgstr "Parametrat e veçantë të nisjes, mbikqyrje."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:63 help.xml:384
+msgid "<link linkend=\"F6\"><keycap>F6</keycap></link>"
+msgstr "<link linkend=\"F6\"><keycap>F6</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:64
+msgid "Special boot parameters for special machines."
+msgstr "Parametrat e veçantë të nisjes për makina të veçanta."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:68 help.xml:389
+msgid "<link linkend=\"F7\"><keycap>F7</keycap></link>"
+msgstr "<link linkend=\"F7\"><keycap>F7</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:69
+msgid "Special boot parameters for selected disk controllers."
+msgstr ""
+"Parametrat e veçantë të nisjes për kontrolluesit e përzgjedhur të disqeve."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:73 help.xml:78 help.xml:394 help.xml:399
+msgid "<link linkend=\"F8\"><keycap>F8</keycap></link>"
+msgstr "<link linkend=\"F8\"><keycap>F8</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:74
+msgid "Special boot parameters for the install system."
+msgstr "Parametrat e veçantë të nisjes për sistemin e instalimit."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:79
+msgid "Special boot parameters for the bootstrap system."
+msgstr "Parametrat e veçantë të nisjes për sistemin bootstrap."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:83
+msgid "<link linkend=\"F9\"><keycap>F9</keycap></link>"
+msgstr "<link linkend=\"F9\"><keycap>F9</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:84
+msgid "How to get help."
+msgstr "Si të merrni ndihmë."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:88
+msgid "<link linkend=\"F10\"><keycap>F10</keycap></link>"
+msgstr "<link linkend=\"F10\"><keycap>F10</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:89
+msgid "Copyrights and warranties."
+msgstr "Të drejtat e autorit dhe garancitë."
+
+#.  deliberately unindented 
+#. type: Content of: <reference><refentry><refsection><literallayout>
+#: help.xml:95
+#, no-wrap
+msgid ""
+"For F1-F9 type control and F then the digit 1-9\n"
+"For F10 type control and F then the digit 0\n"
+msgstr ""
+"Për F1-F9 shtypni kontroll pastaj F e më pas numrat 1-9\n"
+"Për F10 shtypni kontroll dhe F e më pas numrin 0\n"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:100
+msgid "Press F2 through F10 for details, or ENTER to ${BOOTPROMPT}"
+msgstr "Kliko F2 deri tek F10 për detaje, ose ENTER për ${BOOTPROMPT}"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:104
+msgid "Press F2 through F10 for details, or Escape to exit help."
+msgstr "Kliko F2 deri tek F10 për detaje, ose Escape për të dalë nga ndihma."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:111
+msgid "<keycap>F2</keycap>"
+msgstr "<keycap>F2</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:112
+msgid "PREREQUISITES FOR INSTALLING UBUNTU"
+msgstr "KËRKESAT PARAPRAKE PËR INSTALIMIN E UBUNTU"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:119
+msgid ""
+"You must have at least 32 megabytes of RAM to use this Ubuntu installer."
+msgstr ""
+"Ju duhet të keni të paktën 32 megabajt RAM për të përdorur këtë instalues të "
+"Ubuntu."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:123
+msgid ""
+"You should have space on your hard disk to create a new disk partition of at "
+"least 5 gigabytes to install a standard Ubuntu desktop system or at least "
+"500 megabytes for a minimal server installation. You'll need more disk space "
+"to install additional packages, depending on what you wish to do with your "
+"new Ubuntu system."
+msgstr ""
+"Ju duhet të keni hapësirë në hard diskun tuaj për të krijuar një particion "
+"të ri të diskut prej të paktën 5 gigabajtësh për të instaluar një sistem "
+"standart të desktopit të Ubuntu ose të paktën 500 megabajtë për një instalim "
+"minimal serveri.Juve do t'iu duhet më tepër hapësirë në disk për të "
+"instaluar paketat shtesë, në vartësi të asaj se çfarë dëshironi të bëni me "
+"sistemin tuaj të ri Ubuntu."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:131 help.xml:732
+msgid ""
+"See the Installation Manual or the FAQ for more information; both documents "
+"are available at the Ubuntu web site, <ulink url=\"http://www.ubuntu.com/\" /"
+">"
+msgstr ""
+"Shikoni Manualin e Instalimit ose Pyetjet që Bëhen Shpesh për më tepër "
+"informacion; të dyja dokumentet janë të disponueshme në faqen e internetit "
+"të Ubuntu, <ulink url=\"http://www.ubuntu.com/\" />"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:137
+msgid ""
+"You must have at least 384 megabytes of RAM to use this Ubuntu live system."
+msgstr ""
+"Ju duhet të keni të paktën 384 MB RAM për të përdorur këtë sistem të "
+"drejtpërdrejtë të Ubuntu."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:142
+msgid ""
+"The live system does not require any space on your hard disk. However, "
+"existing Linux swap partitions on the disk will be used if available."
+msgstr ""
+"Sistemi i drejtpërdrejtë nuk kërkon hapësirë në hard diskun tuaj. Sidoqoftë, "
+"particionet ekzistuese swap të Linux në diskun tuaj do të përdoren nëse janë "
+"të disponueshme."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:147 help.xml:738
+msgid ""
+"See the FAQ for more information; this document is available at the Ubuntu "
+"web site, <ulink url=\"http://www.ubuntu.com/\" />"
+msgstr ""
+"Shikoni Pyetjet që Bëhen Shpesh për më tepër informacion, ky dokument është "
+"i disponueshëm në faqen e internetit të Ubuntu, <ulink url=\"http://www."
+"ubuntu.com/\" />"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:152
+msgid "Thank you for choosing Ubuntu!"
+msgstr "Faleminderit që keni zgjedhur Ubuntu!"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:156 help.xml:268 help.xml:314 help.xml:343 help.xml:417
+#: help.xml:524 help.xml:597 help.xml:687 help.xml:743 help.xml:799
+msgid ""
+"Press <phrase class=\"not-serial\">F1</phrase><phrase class=\"serial"
+"\">control and F then 1</phrase> for the help index, or ENTER to "
+"${BOOTPROMPT}"
+msgstr ""
+"Klikoni <phrase class=\"not-serial\">F1</phrase><phrase class=\"serial"
+"\">kontrollin pastaj F e më pas 1</phrase> për treguesin e ndihmës, ose "
+"ENTER për ${BOOTPROMPT}"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:161 help.xml:273 help.xml:319 help.xml:348 help.xml:422
+#: help.xml:529 help.xml:602 help.xml:692 help.xml:748 help.xml:804
+msgid "Press F1 for the help index, or Escape to exit help."
+msgstr "Shtypni F1 për treguesin e ndihmës, ose Escape për të dalë nga ndihma."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:168
+msgid "<keycap>F3</keycap>"
+msgstr "<keycap>F3</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:169
+msgid "BOOT METHODS"
+msgstr "METODAT E NISJES"
+
+#. type: Content of: <reference><refentry><refsection><title>
+#: help.xml:173
+msgid "Available boot methods:"
+msgstr "Metodat e disponueshme të nisjes:"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:177
+msgid "install"
+msgstr "instalo"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:178 help.xml:210
+msgid "Install Ubuntu"
+msgstr "Instalo Ubuntu"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:180
+msgid "Start the installation -- this is the default option."
+msgstr "Nis instalimin -- ky është opsioni i parazgjedhur."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:185
+msgid "expert"
+msgstr "ekspert"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:187
+msgid "Start the installation in expert mode, for maximum control."
+msgstr "Nise instalimin në mënyrë eksperti, për kontroll maksimal."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:192
+msgid "cli"
+msgstr "cli"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:193
+msgid "cli-expert"
+msgstr "cli-ekspert"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:195
+msgid "Minimal command-line system install."
+msgstr "Instalim i një sistemi minimal me rresht të komandave."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:200
+msgid "live"
+msgstr "drejtpërdrejt"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:201
+msgid "Try Ubuntu without any change to your computer"
+msgstr "Provo Ubuntu pa i bërë asnjë ndryshim kompjuterit tënd"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:203
+msgid ""
+"Start the live system. If you wish, you can install it later using the "
+"\"Install\" icon on the desktop."
+msgstr ""
+"Nise sistemin e drejtpërdrejtë. Nëse dëshiron, ti mund ta instalosh atë më "
+"vonë duke përdorur ikonën \"Instalo\" në desktop."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:209
+msgid "live-install"
+msgstr "instalim i drejtpërdrejtë"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:212
+msgid "Start the installation."
+msgstr "Nis instalimin."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:228
+msgid "memtest"
+msgstr "memtest"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:229
+msgid "Test memory"
+msgstr "Testo kujtesën"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:231
+msgid "Perform a memory test."
+msgstr "Nis një test të kujtesës."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:237 help.xml:298
+msgid ""
+"To use one of these boot methods, type it at the prompt, optionally followed "
+"by any boot parameters. For example:"
+msgstr ""
+"Për të përdorur një nga këto metoda të nisjes, klikoni tek prompt-i, në "
+"mënyrë opsionale të ndjekur nga parametrat e nisjes. Përshembull:"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:242
+#, no-wrap
+msgid "boot: install acpi=off"
+msgstr "boot: install acpi=off"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:243
+#, no-wrap
+msgid "boot: live acpi=off"
+msgstr "boot: live acpi=off"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:247
+msgid ""
+"If unsure, you should use the default boot method, with no special "
+"parameters, by simply pressing enter at the boot prompt."
+msgstr ""
+"Nëse nuk jeni të sigurtë, ju duhet të përdorni metodën e parazgjedhur të "
+"nisjes, pa parametra të veçantë, thjesht duke shtypur Enter në prompt-in e "
+"nisjes."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:252
+msgid ""
+"(\"Ubuntu\" may be replaced with other related operating system names. This "
+"help text is generic.)"
+msgstr ""
+"(\"Ubuntu\" mund të zëvendësohet me emrat e sistemeve të tjerë operativë të "
+"lidhur me të. Ky tekst ndihmues është i përgjithshëm.)"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:257 help.xml:307
+msgid ""
+"To use one of these boot methods, select it from the menu with the cursor "
+"keys. Press F4 to select alternative start-up and installation modes.  Press "
+"F6 to edit boot parameters. Press F6 again to select from a menu of commonly-"
+"used boot parameters."
+msgstr ""
+"Për të përdorur një nga këto metoda të nisjes, zgjidheni atë nga menuja me "
+"butonat shigjetë. klikoni F4 për të zgjedhur mënyrën alternative të nisjes "
+"dhe instalimit. Klikoni F6 për të modifikuar parametrat e nisjes. Klikoni F6 "
+"përsëri për të zgjedhur nga një menu e parametrave të nisjes të përdorur "
+"zakonisht."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:264
+msgid ""
+"Except in expert mode, non-critical kernel boot messages are suppressed."
+msgstr ""
+"Përveç mënyrës së ekspertit, mesazhet jo kritike të kernel boot nuk shfaqen."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:280 help.xml:326
+msgid "<keycap>F4</keycap>"
+msgstr "<keycap>F4</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:281 help.xml:327
+msgid "RESCUING A BROKEN SYSTEM"
+msgstr "TË SHPËTOSH NJË SISTEM TË DËMTUAR"
+
+#. type: Content of: <reference><refentry><refsection><title>
+#: help.xml:285
+msgid "Use one of these boot methods to rescue an existing install"
+msgstr "Përdor një nga këto metoda për të shpëtuar një instalim ekzistues"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:289
+msgid "rescue"
+msgstr "shpëtoje"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:290
+msgid "Rescue a broken system"
+msgstr "Shpëto një sistem të dëmtuar"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:292
+msgid "Boot into rescue mode."
+msgstr "Nise në mënyrë shpëtimi."
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:303
+#, no-wrap
+msgid "boot: rescue acpi=off"
+msgstr "boot: rescue acpi=off"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:334
+msgid ""
+"There is no dedicated rescue mode on this disc. However, since the disc "
+"provides a complete user environment, it is possible to use the command-line "
+"and/or graphical tools provided to rescue a broken system, and to use a web "
+"browser to search for help. Extensive advice is available online for most "
+"kinds of problems that might cause your normal system to fail to boot "
+"correctly."
+msgstr ""
+"Nuk ka mënyrë të dedikur shpëtimi në këtë disk. Sidoqoftë, ngaqë ky disk "
+"përmban një ambient të plotë për përdoruesin, është e mundur të përdoret "
+"rreshti i komandave / ose mjetet grafike të dhëna për të shpëtuar një sistem "
+"të dëmtuar dhe për të përdorur një shfletues interneti për të kërkuar për "
+"ndihmë. këshilla të zgjeruara janë të disponueshme në internet për shumicën "
+"e llojeve të problemeve që mund të bëjnë që sistemi juaj normal të mos nisë "
+"siç duhet."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:355
+msgid "<keycap>F5</keycap>"
+msgstr "<keycap>F5</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:356
+msgid "SPECIAL BOOT PARAMETERS - OVERVIEW"
+msgstr "PARAMETRAT E VEÇANTË TË NISJES - MBIKQYRJE"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:363
+msgid ""
+"On a few systems, you may need to specify a parameter at the <literal>boot:</"
+"literal> prompt in order to boot the system."
+msgstr ""
+"Në disa sisteme, juve mund t'iu nevojitet të specifikoni një parametër në "
+"<literal>boot:</literal> prompt në mënyrë që të nisni sistemin."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:367
+msgid ""
+"On a few systems, you may need to specify a parameter by pressing F6 in "
+"order to boot the system."
+msgstr ""
+"Në disa sisteme, juve mund t'iu duhet të specifikoni një parametër duke "
+"shtypur F6 në mënyrë që të nisni sistemin."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:371
+msgid ""
+"For example, Linux may not be able to autodetect your hardware, and you may "
+"need to explicitly specify its location or type for it to be recognized."
+msgstr ""
+"Përshembull, Linux mund të mos jetë në gjendje të vetëdallojë hardware-t "
+"tuaja, dhe juve mund t'iu duhet të specifikoni në mënyrë manuale "
+"vendndodhjen dhe tipin e saj që të mund të njihet."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:377
+msgid "For more information about what boot parameters you can use, press:"
+msgstr ""
+"Për më tepër informacion se çfarë paramera të nisjes ju mund të përdorni, "
+"klikoni:"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:385
+msgid "boot parameters for special machines"
+msgstr "parametrat e nisjes për makina të veçanta"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:390
+msgid "boot parameters for various disk controllers"
+msgstr "parametrat e nisjes për disa kontrollues disqesh"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:395
+msgid "boot parameters understood by the install system"
+msgstr "parametrat e nisjes që kuptohen nga sistemi i instalimit"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:400
+msgid "boot parameters understood by the bootstrap system"
+msgstr "parametrat e nisjes që kuptohen nga sistemi bootstrap"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:405
+msgid ""
+"Many kernel modules are loaded dynamically by the installer, and parameters "
+"for those modules cannot be given on the command line. To be prompted for "
+"parameters when modules are loaded, boot in expert mode (see <link linkend="
+"\"F3\"><keycap>F3</keycap></link>)."
+msgstr ""
+"Shumë module të kernelit ngarkohen në mënyrë dinamike nga instaluesi dhe "
+"parametrat për këto module nuk mund të jepen në rreshtin e komandave. Për të "
+"kërkuar parametrat kur modulet janë ngarkuar, hyni në mënyrë eksperti "
+"(shikoni <link linkend=\"F3\"><keycap>F3</keycap></link>)."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:412
+msgid ""
+"Many kernel modules are loaded dynamically by the bootstrap system, and "
+"parameters for those modules cannot be given on the command line."
+msgstr ""
+"Shumë module të kernelit ngarkohen në mënyrë dinamike nga sistemi bootstrap "
+"dhe parametrat për këto module nuk mund të jepen nga rreshti i komandave."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:429
+msgid "<keycap>F6</keycap>"
+msgstr "<keycap>F6</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:430
+msgid "SPECIAL BOOT PARAMETERS - VARIOUS HARDWARE"
+msgstr "PARAMETRA TË VEÇANTË NISJEJE - HARDWARE TË NDRYSHËM"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:437 help.xml:544 help.xml:615
+msgid ""
+"You can use the following boot parameters at the <literal>boot:</literal> "
+"prompt, in combination with the boot method (see <link linkend="
+"\"F3\"><keycap>F3</keycap></link>)."
+msgstr ""
+"Ju nuk mund t'i përdorni parametrat e nisjes në <literal>boot:</literal> "
+"prompt, të kombinuara me mënyrën e nisjes (shikoni <link linkend="
+"\"F3\"><keycap>F3</keycap></link>)."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:442 help.xml:549 help.xml:620
+msgid ""
+"You can use the following boot parameters by pressing F6, in combination "
+"with the boot method (see <link linkend=\"F3\"><keycap>F3</keycap></link>)."
+msgstr ""
+"ju mund të përdorni parametrat e nisjes që vijojnë duke klikuar F6, të "
+"kombinuar me metodën e nisjes (shikoni <link linkend=\"F3\"><keycap>F3</"
+"keycap></link>)."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:446
+msgid "If you use hex numbers you have to use the 0x prefix (e.g., 0x300)."
+msgstr ""
+"Nëse përdorni numra hex do t'iu duhet të përdorni prefiksin 0x (p.sh., "
+"0x300)."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:451 help.xml:555
+msgid "HARDWARE"
+msgstr "HARDWARE"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:452 help.xml:556
+msgid "PARAMETER TO SPECIFY"
+msgstr "PARAMETRI QË DO TË SPECIFIKOHET"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:455
+msgid "IBM PS/1 or ValuePoint (IDE disk)"
+msgstr "IBM PS/1 ose ValuePoint (IDE disk)"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:456
+msgid ""
+"<userinput>hd=<replaceable>cylinders</replaceable>,<replaceable>heads</"
+"replaceable>,<replaceable>sectors</replaceable></userinput>"
+msgstr ""
+"<userinput>hd=<replaceable>cilindra</replaceable>,<replaceable>koka</"
+"replaceable>,<replaceable>sektorë</replaceable></userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:460
+msgid "Some IBM ThinkPads"
+msgstr "Disa IBM ThinkPad"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:461
+msgid "<userinput>floppy.floppy=thinkpad</userinput>"
+msgstr "<userinput>floppy.floppy=thinkpad</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:465
+msgid "Protect I/O port regions"
+msgstr "Ruaj zonat e porteve I/O"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:466
+msgid ""
+"<userinput>reserve=<replaceable>iobase</replaceable>,<replaceable>extent</"
+"replaceable></userinput><optional><userinput>,<replaceable>...</"
+"replaceable></userinput></optional>"
+msgstr ""
+"<userinput>reserve=<replaceable>iobase</replaceable>,<replaceable>extent</"
+"replaceable></userinput><optional><userinput>,<replaceable>...</"
+"replaceable></userinput></optional>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:470
+msgid "Laptops with screen display problems"
+msgstr "Laptopët me probleme të shfaqjes së ekranit"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:471
+msgid "<userinput>vga=771</userinput>"
+msgstr "<userinput>vga=771</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:475
+msgid "Use first serial port at 9600 baud"
+msgstr "Përdor portin e parë serial me 9600 baud"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:476
+msgid "<userinput>console=ttyS0,9600n8</userinput>"
+msgstr "<userinput>console=ttyS0,9600n8</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:480
+msgid "Force use of generic IDE driver"
+msgstr "Detyro përdorimin e draiverit të përgjithshëm IDE"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:481
+msgid "<userinput>all_generic_ide=1</userinput>"
+msgstr "<userinput>all_generic_ide=1</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:486
+msgid ""
+"Possible (temporary) workarounds for lockups or other hardware failures:"
+msgstr ""
+"Rregullimet e mundshme (të përkohshme) për bllokimet apo për dështime të "
+"tjera të hardware:"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:493
+msgid "disable buggy APIC interrupt routing"
+msgstr "çaktivizo routing me gabime të APIC interrupt"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:494
+msgid "<userinput>noapic nolapic</userinput>"
+msgstr "<userinput>noapic nolapic</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:498
+msgid "(partly) disable ACPI"
+msgstr "(pjesërisht) çaktivizo ACPI"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:500
+msgid "<userinput>acpi=noirq</userinput> or <userinput>acpi=off</userinput>"
+msgstr "<userinput>acpi=noirq</userinput> ose <userinput>acpi=off</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:506
+msgid "disable USB"
+msgstr "çaktivizo USB"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:507
+msgid "<userinput>nousb</userinput>"
+msgstr "<userinput>nousb</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:511
+msgid "poll for interrupts"
+msgstr "kërko për ndërprerës"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:512
+msgid "<userinput>irqpoll</userinput>"
+msgstr "<userinput>irqpoll</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:516 help.xml:589 help.xml:679
+msgid "For example:"
+msgstr "Përshembull:"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:519
+#, no-wrap
+msgid "boot: install vga=771 noapic nolapic"
+msgstr "boot: install vga=771 noapic nolapic"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:520
+#, no-wrap
+msgid "boot: live vga=771 noapic nolapic"
+msgstr "boot: live vga=771 noapic nolapic"
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:536
+msgid "<keycap>F7</keycap>"
+msgstr "<keycap>F7</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:537
+msgid "SPECIAL BOOT PARAMETERS - VARIOUS DISK DRIVES"
+msgstr "PARAMETRA TË VEÇANTË NISJEJE - DRAIVE TË NDRYSHËM DISKU"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:559
+msgid "Adaptec 151x, 152x"
+msgstr "Adaptec 151x, 152x"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:560
+msgid ""
+"<userinput>aha152x.aha152x=<replaceable>iobase</replaceable></"
+"userinput><optional><userinput>,<replaceable>irq</replaceable></"
+"userinput><optional><userinput>,<replaceable>scsi-id</replaceable></"
+"userinput><optional><userinput>,<replaceable>reconnect</replaceable></"
+"userinput></optional></optional></optional>"
+msgstr ""
+"<userinput>aha152x.aha152x=<replaceable>iobase</replaceable></"
+"userinput><optional><userinput>,<replaceable>irq</replaceable></"
+"userinput><optional><userinput>,<replaceable>scsi-id</replaceable></"
+"userinput><optional><userinput>,<replaceable>reconnect</replaceable></"
+"userinput></optional></optional></optional>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:564
+msgid "Adaptec 1542"
+msgstr "Adaptec 1542"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:565
+msgid ""
+"<userinput>aha1542.aha1542=<replaceable>iobase</replaceable></"
+"userinput><optional><userinput>,<replaceable>buson</replaceable>,"
+"<replaceable>busoff</replaceable></userinput><optional><userinput>,"
+"<replaceable>dmaspeed</replaceable></userinput></optional></optional>"
+msgstr ""
+"<userinput>aha1542.aha1542=<replaceable>iobase</replaceable></"
+"userinput><optional><userinput>,<replaceable>buson</replaceable>,"
+"<replaceable>busoff</replaceable></userinput><optional><userinput>,"
+"<replaceable>dmaspeed</replaceable></userinput></optional></optional>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:569
+msgid "Adaptec 274x, 284x"
+msgstr "Adaptec 274x, 284x"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:570
+msgid "<userinput>aic7xxx.aic7xxx=no_reset</userinput> (enabled if non-zero)"
+msgstr "<userinput>aic7xxx.aic7xxx=no_reset</userinput> (enabled if non-zero)"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:574
+msgid "BusLogic SCSI Hosts"
+msgstr "BusLogic SCSI Hosts"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:575
+msgid ""
+"<userinput>BusLogic.BusLogic=<replaceable>iobase</replaceable></userinput>"
+msgstr ""
+"<userinput>BusLogic.BusLogic=<replaceable>iobase</replaceable></userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:579
+msgid "Certain DELL machines"
+msgstr "Disa makina DELL"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:580
+msgid "<userinput>aic7xxx.aic7xxx=no_probe</userinput>"
+msgstr "<userinput>aic7xxx.aic7xxx=no_probe</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:585
+msgid ""
+"This list is incomplete, see the kernel's kernel-parameters.txt file for "
+"more."
+msgstr ""
+"Kjo listë nuk është komplete, shikoni skedarin e kernelit kernel-parameters."
+"txt për më tepër."
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:592
+#, no-wrap
+msgid "boot: install aic7xxx.aic7xxx=no_probe"
+msgstr "boot: install aic7xxx.aic7xxx=no_probe"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:593
+#, no-wrap
+msgid "boot: live aic7xxx.aic7xxx=no_probe"
+msgstr "boot: live aic7xxx.aic7xxx=no_probe"
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:609
+msgid "<keycap>F8</keycap>"
+msgstr "<keycap>F8</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:610
+msgid "SPECIAL BOOT PARAMETERS - INSTALLATION SYSTEM"
+msgstr "PARAMETRA TË VEÇANTË NISJEJE - SISTEMI I INSTALIMIT"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:624
+msgid "These parameters control how the installer works."
+msgstr "Këto parametra kontrollojnë se si punon instaluesi."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:627
+msgid "These parameters control how the bootstrap system works."
+msgstr "Këto parametra kontrollojnë se si punon sistemi bootstrap."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:632
+msgid "RESULT"
+msgstr "REZULTATI"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:633
+msgid "PARAMETER"
+msgstr "PARAMETRI"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:636
+msgid "Disable framebuffer"
+msgstr "Çaktivizo framebuffer"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:637
+msgid "<userinput>vga=normal fb=false</userinput>"
+msgstr "<userinput>vga=normal fb=false</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:641
+msgid "Don't start PCMCIA"
+msgstr "Mos nis PCMCIA"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:642
+msgid "<userinput>hw-detect/start_pcmcia=false</userinput>"
+msgstr "<userinput>hw-detect/start_pcmcia=false</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:646
+msgid "Force static network config"
+msgstr "Detyro konfigurim statik të rrjetit"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:647
+msgid "<userinput>netcfg/disable_dhcp=true</userinput>"
+msgstr "<userinput>netcfg/disable_dhcp=true</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:651
+msgid "Set keyboard map"
+msgstr "Vendos hartën e tastierës"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:652
+msgid "<userinput>bootkbd=es</userinput>"
+msgstr "<userinput>bootkbd=es</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:656
+msgid "Select the Kubuntu desktop"
+msgstr "Zgjidh desktopin Kubuntu"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:657
+msgid "<userinput>tasks=kubuntu-desktop</userinput>"
+msgstr "<userinput>tasks=kubuntu-desktop</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:662
+msgid ""
+"Disable ACPI for PCI maps (handy for some HP servers and Via-based machines)"
+msgstr ""
+"Çaktivizoni ACPI për hartat PCI (duhet për disa servera HP dhe për makinat e "
+"bazuara në Via)"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:665
+msgid "<userinput>pci=noacpi</userinput>"
+msgstr "<userinput>pci=noacpi</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:669
+msgid "Use high contrast theme"
+msgstr "Përdor temën me kontrast të lartë"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:670
+msgid "<userinput>theme=dark</userinput>"
+msgstr "<userinput>theme=dark</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:674
+msgid "Use Braille tty"
+msgstr "Përdor Braille tty"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:675
+msgid ""
+"<userinput>brltty=<replaceable>driver</replaceable>,<replaceable>device</"
+"replaceable>,<replaceable>texttable</replaceable></userinput>"
+msgstr ""
+"<userinput>brltty=<replaceable>driver</replaceable>,<replaceable>device</"
+"replaceable>,<replaceable>texttable</replaceable></userinput>"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:682
+#, no-wrap
+msgid "boot: install vga=normal fb=false"
+msgstr "boot: install vga=normal fb=false"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:683
+#, no-wrap
+msgid "boot: live pci=noacpi"
+msgstr "boot: live pci=noacpi"
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:699
+msgid "<keycap>F9</keycap>"
+msgstr "<keycap>F9</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:700
+msgid "GETTING HELP"
+msgstr "TË MARRËSH NDIHMË"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:707
+msgid "If you can't install Ubuntu, don't despair!"
+msgstr "Nëse nuk mund të instaloni Ubuntu, mos u dëshpëroni!"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:710
+msgid "If you can't start Ubuntu, don't despair!"
+msgstr "Nëse nuk mund të nisni Ubuntu, mos u dëshpëroni!"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:713
+msgid "The Ubuntu team is ready to help you!"
+msgstr "Skuadra e Ubuntu është gati t'iu ndihmojë!"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:716
+msgid ""
+"We are especially interested in hearing about installation problems, because "
+"in general they don't happen to only <emphasis>one</emphasis> person."
+msgstr ""
+"Ne jemi shumë të interesuar të dëgjojmë për problemet e instalimit, sepse "
+"ato përgjithësisht nuk i ndodhin vetëm <emphasis>një</emphasis> personi."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:721
+msgid ""
+"We are especially interested in hearing about startup problems, because in "
+"general they don't happen to only <emphasis>one</emphasis> person."
+msgstr ""
+"Ne jemi shumë të interesuar të dëgjojmë për problemet e nisjes, sepse ato "
+"përgjithësisht nuk i ndodhin vetëm <emphasis>një</emphasis> personi."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:725
+msgid ""
+"We've either already heard about your particular problem and can dispense a "
+"quick fix, or we would like to hear about it and work through it with you, "
+"and the next user who comes up with the same problem will profit from your "
+"experience!"
+msgstr ""
+"Ne ose tashmë e kemi dëgjuar problemin tuaj të veçantë dhe po nxjerrim një "
+"rregullim të shpejtë, ose do të donim të dëgjonim rreth tij prej jush dhe të "
+"punojmë sëbashku për ta zgjidhur dhe përdoruesi tjetër që ka të njëjtin "
+"problem do të përfitojë nga përvoja juaj!"
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:755
+msgid "<keycap>F10</keycap>"
+msgstr "<keycap>F10</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:756
+msgid "COPYRIGHTS AND WARRANTIES"
+msgstr "TË DREJTAT E AUTORIT DHE GARANCITË"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:763
+msgid ""
+"Ubuntu is Copyright (C) 2004-2010 Canonical Ltd., and incorporates the work "
+"of many other original authors and contributors."
+msgstr ""
+"Ubuntu është e Drejtë e Autorit (C) 2004-2010 Canonical Ltd., dhe përfshin "
+"punën e shumë kontribuesve dhe autorëve origjinalë."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:768
+msgid "The Ubuntu system is freely redistributable."
+msgstr "Sistemi i Ubuntu shpërndahet falas."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:771
+msgid ""
+"After installation, the exact distribution terms for each package are "
+"described in the corresponding file /usr/share/doc/<replaceable>packagename</"
+"replaceable>/copyright."
+msgstr ""
+"Pas instalimit, termat e saktë të shpërndarjes për çdo paketë përshkruhen në "
+"skedarin korrespondues /usr/share/doc/<replaceable>packagename</replaceable>/"
+"copyright."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:776
+msgid ""
+"After startup, the exact distribution terms for each package are described "
+"in the corresponding file /usr/share/doc/<replaceable>packagename</"
+"replaceable>/copyright."
+msgstr ""
+"Pas nisjes, termat e saktë të shpërndarjes për çdo paketë përshkruhen në "
+"skedarin korrespondues /usr/share/doc/<replaceable>packagename</replaceable>/"
+"copyright."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:782
+msgid ""
+"Ubuntu comes with <emphasis>ABSOLUTELY NO WARRANTY</emphasis>, to the extent "
+"permitted by applicable law."
+msgstr ""
+"Ubuntu vjen <emphasis>ABSOLUTISHT PA ASNJË GARANCI</emphasis>, aq sa lejohet "
+"nga ligjet e aplikueshme."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:787
+msgid ""
+"This installation system is based on the Debian installer. See <ulink url="
+"\"http://www.debian.org/\" /> for more details and information on the Debian "
+"project."
+msgstr ""
+"Ky sistem instalimi është bazuar në instaluesin e Debian. Shikoni <ulink url="
+"\"http://www.debian.org/\" /> për më tepër detaje dhe informacion rreth "
+"projektit Debian."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:793
+msgid ""
+"This system is based on Debian. See <ulink url=\"http://www.debian.org/\" /> "
+"for more details and information on the Debian project."
+msgstr ""
+"Ky sistem bazohet në Debian. Shikoni <ulink url=\"http://www.debian.org/\" /"
+"> për më tepër detaje dhe informacion rreth projektit Debian."

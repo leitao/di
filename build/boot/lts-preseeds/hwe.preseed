@@ -1,0 +1,2 @@
+# If we're booting using the backported Vivid kernel, install it too.
+d-i	base-installer/kernel/altmeta	string hwe-16.04-edge

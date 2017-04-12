@@ -1,0 +1,198 @@
+#! /bin/sh
+set -e
+
+# Copyright (C) 2010, 2011, 2012 Canonical Ltd.
+# Author: Colin Watson <cjwatson@ubuntu.com>
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2, or (at your option) any later
+# version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+# for more details.
+#
+# You should have received a copy of the GNU General Public License along
+# with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+
+# Make an EFI boot image, or retrieve a signed image from the mirror if
+# it exists.
+
+if [ -z "$1" ] || [ -z "$2" ]; then
+	echo "usage: $0 OUTPUT-DIRECTORY GRUB-PLATFORM EFI-NAME [NETBOOT-PREFIX]"
+	exit 1
+fi
+
+outdir="$1"
+platform="$2"
+efi_name="$3"
+netboot_prefix="$4"
+
+memdisk_img=
+workdir=
+
+cleanup () {
+	[ -z "$memdisk_img" ] || rm -f "$memdisk_img"
+	[ -z "$workdir" ] || rm -rf "$workdir"
+}
+trap cleanup EXIT HUP INT QUIT TERM
+
+rm -rf "$outdir"
+mkdir -p "$outdir"
+
+memdisk_img="$(mktemp efi-image.XXXXXX)"
+workdir="$(mktemp -d efi-image.XXXXXX)"
+
+found=0
+# For the moment, only look for Secure Boot signed images for x64.
+if [ "$efi_name" = x64 ] && [ -n "$SIGNED_IMAGE" ]; then
+	# Setup environment
+	if [ ! $APTDIR ]; then
+		APTDIR="apt"
+	fi
+	APTDIR=$APTDIR.deb
+
+	if [ ! $KEYRING ]; then
+		KEYRING=/etc/apt/trusted.gpg
+	fi
+
+	# Set sources.list file
+	if [ -f sources.list.deb.local ]; then
+		LIST=`pwd`/sources.list.deb.local
+	else
+		LIST=/etc/apt/sources.list
+	fi
+
+	# All these options make apt read the right sources list, and use APTDIR for
+	# everything so it need not run as root.
+	APT_OPTS="-o Dir::Etc::sourcelist=$LIST \
+		-o Dir::Etc::sourceparts=/dev/null \
+		-o Dir::Etc::Preferences=`pwd`/preferences.deb.local \
+		-o Dir::State=`pwd`/$APTDIR/state \
+		-o Debug::NoLocking=true \
+		-o Debug::pkgDepCache::AutoInstall=true \
+		-o Dir::Cache=`pwd`/$APTDIR/cache \
+		-o Acquire::Retries=3 \
+		-o APT::Install-Recommends=false
+		-o Apt::Architecture=`dpkg-architecture -qDEB_HOST_ARCH` \
+		-o Dir::Etc::trusted=$KEYRING
+		-o Dir::State::Status=`pwd`/$APTDIR/state/status"
+
+	# Prepare APTDIR
+	mkdir -p $APTDIR/state/lists/partial
+	mkdir -p $APTDIR/state/mirrors/partial
+	mkdir -p $APTDIR/cache/archives/partial
+	echo -n > $APTDIR/state/status
+
+	apt-get $APT_OPTS update
+
+	# Make sure we look at the mirror that matches our candidate version,
+	# in case of apt preferences overriding the default.
+	mirror=$(apt-cache $APT_OPTS policy grub-efi-amd64 \
+		 | awk 'BEGIN { ver="nomatch"; found=0 };
+			/Candidate:/ { ver=$2 }
+			$1 == ver { found=1 }
+			found == 1 && $1 ~ /^[0-9]+$/ {
+				print $2 "/dists/" $3 "/uefi/grub2-" $4; exit
+			}')
+	file=$mirror/current/gcd$efi_name.efi.signed
+
+	case $file in
+		file:/*|copy:/*)
+			file=/${file#*:/}
+			if [ -e "$file" ]; then
+				cp "$file" "$workdir/grub$efi_name.efi.signed"
+				echo "Using signed grub version" $(cat $(dirname $file)/version)
+				found=1
+			fi
+			;;
+		*)
+			if wget -q "$file" -O "$workdir/grub$efi_name.efi.signed" 2>/dev/null
+			then
+				echo "Using signed grub version" $(wget -O - -q $(dirname $file)/version)
+				found=1
+			fi
+			;;
+	esac
+	if [ "$found" = 1 ]; then
+		mv "$workdir/grub$efi_name.efi.signed" "$workdir/grub$efi_name.efi"
+		cp /usr/lib/shim/shim.efi.signed "$workdir/boot$efi_name.efi"
+	else
+		rm -f "$workdir/grub$efi_name.efi.signed"
+		echo 'Failed to obtain signed grub image, despite $SIGNED_IMAGE being set.' >&2
+		exit 1
+	fi
+fi
+
+mkdir -p "$outdir/boot/grub/$platform"
+(for i in $(cat /usr/lib/grub/$platform/partmap.lst); do
+	echo "insmod $i"
+ done; \
+ echo "configfile /boot/grub/grub.cfg") >"$outdir/boot/grub/$platform/grub.cfg"
+
+# No signed EFI image found in the archive; generate one here.
+if [ "$found" = 0 ]; then
+	# Skeleton configuration file which finds the real boot disk.
+	mkdir -p "$workdir/boot/grub"
+	cat >"$workdir/boot/grub/grub.cfg" <<EOF
+search --file --set=root /.disk/info
+set prefix=(\$root)/boot/grub
+source \$prefix/$platform/grub.cfg
+EOF
+
+	# Build the core image.
+	(cd "$workdir"; tar -cf - boot) >"$memdisk_img"
+	grub-mkimage -O "$platform" -m "$memdisk_img" \
+		-o "$workdir/boot$efi_name.efi" -p '(memdisk)/boot/grub' \
+		search iso9660 configfile normal memdisk tar part_msdos fat
+fi
+
+[ -z "$netboot_prefix" ] || \
+grub-mkimage -O "$platform" \
+	-o "$outdir/bootnet$efi_name.efi" -p "$netboot_prefix/grub" \
+	search configfile normal efinet tftp net
+
+# Stuff it into a FAT filesystem, making it as small as possible.  24KiB
+# headroom seems to be enough; (x+31)/32*32 rounds up to multiple of 32.
+size=$(( $(stat -c %s "$workdir/boot$efi_name.efi") / 1024 ))
+if [ -e "$workdir/grub$efi_name.efi" ]; then
+	size=$(( $size + $(stat -c %s "$workdir/grub$efi_name.efi") / 1024 ))
+fi
+
+mkfs.msdos -C "$outdir/efi.img" \
+	$(( ($size + 55) / 32 * 32 ))
+mmd -i "$outdir/efi.img" ::efi
+mmd -i "$outdir/efi.img" ::efi/boot
+mcopy -i "$outdir/efi.img" "$workdir/boot$efi_name.efi" \
+	"::efi/boot/boot$efi_name.efi"
+if [ -e "$workdir/grub$efi_name.efi" ]; then
+	mcopy -i "$outdir/efi.img" "$workdir/grub$efi_name.efi" \
+		"::efi/boot/grub$efi_name.efi"
+fi
+
+# Copy over GRUB modules, except for those already built in.
+cp -a "/usr/lib/grub/$platform"/*.lst "$outdir/boot/grub/$platform/"
+for x in "/usr/lib/grub/$platform"/*.mod; do
+	# TODO: Some of these exclusions are based on knowledge of module
+	# dependencies.  It would be nice to have a way to read the module
+	# list directly out of the image.
+	case $(basename "$x" .mod) in
+	    configfile|extcmd|fshelp|iso9660|memdisk|normal|search|search_fs_file|search_fs_uuid|search_label|tar)
+		# included in bootx86.efi
+		;;
+	    affs|afs|afs_be|befs|befs_be|minix|nilfs2|sfs|zfs|zfsinfo)
+		# unnecessary filesystem modules
+		;;
+	    example_functional_test|functional_test|hello)
+		# other cruft
+		;;
+	    *)
+		cp -a "$x" "$outdir/boot/grub/$platform/"
+		;;
+	esac
+done
+
+exit 0

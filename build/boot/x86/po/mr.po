@@ -1,0 +1,1068 @@
+# Marathi translation for debian-installer
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the debian-installer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-05 15:45-0800\n"
+"PO-Revision-Date: 2013-01-18 20:14+0000\n"
+"Last-Translator: अमित अ. पाटील <Unknown>\n"
+"Language-Team: Marathi <mr@li.org>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-04-16 16:01+0000\n"
+"X-Generator: Launchpad (build 16567)\n"
+
+#. type: Content of: <reference><title>
+#: help.xml:6
+msgid "Installer Boot Help Screens"
+msgstr "स्थापकाचे बुट मदत स्क्रिन"
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:10
+msgid "<keycap>F1</keycap>"
+msgstr "<keycap>एफ़ १</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:11
+msgid "Welcome to ${DISTRIBUTION_NAME}!"
+msgstr "${DISTRIBUTION_NAME} मधे स्वागत आहे!"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:18
+msgid ""
+"This is an installation system for ${DISTRIBUTION_NAME} "
+"${DISTRIBUTION_VERSION}. It was built on ${BUILD_DATE}."
+msgstr ""
+"ही ${DISTRIBUTION_NAME} ${DISTRIBUTION_VERSION} साठीची स्थापना व्यवस्था आहे. ही "
+"व्यवस्था ${BUILD_DATE} रोजी बांधली गेली."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:23
+msgid ""
+"This is a live system for ${DISTRIBUTION_NAME} ${DISTRIBUTION_VERSION}. It "
+"was built on ${BUILD_DATE}."
+msgstr ""
+"ही ${DISTRIBUTION_NAME} ${DISTRIBUTION_VERSION} साठीची थेट व्यवस्था आहे. ही "
+"व्यवस्था ${BUILD_DATE} रोजी बांधली गेली."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><title>
+#: help.xml:28
+msgid "HELP INDEX"
+msgstr "मदत अनुक्रमणिका"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:29
+msgid "KEY"
+msgstr "कळ"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:30
+msgid "TOPIC"
+msgstr "विषय"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:33
+msgid "<link linkend=\"F1\"><keycap>F1</keycap></link>"
+msgstr "<link linkend=\"F1\"><keycap>एफ़ १</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:34
+msgid "This page, the help index."
+msgstr "हे पृष्ठ, मदत अनुक्रमणिका."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:38 help.xml:43
+msgid "<link linkend=\"F2\"><keycap>F2</keycap></link>"
+msgstr "<link linkend=\"F2\"><keycap>एफ़ २</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:39
+msgid "Prerequisites for installing ${DISTRIBUTION_NAME}."
+msgstr "${DISTRIBUTION_NAME} स्थापनेसाठी पूर्वापेक्षा."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:44
+msgid "Prerequisites for running ${DISTRIBUTION_NAME}."
+msgstr "${DISTRIBUTION_NAME} चालविण्यासाठी पूर्वापेक्षा."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:48
+msgid "<link linkend=\"F3\"><keycap>F3</keycap></link>"
+msgstr "<link linkend=\"F3\"><keycap>एफ़ ३</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:49
+msgid "Boot methods for special ways of using this system."
+msgstr "विशेषरितीने प्रणालीचा उपयोग करण्यासाठी बुट पद्धती"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:53
+msgid "<link linkend=\"F4\"><keycap>F4</keycap></link>"
+msgstr "<link linkend=\"F4\"><keycap>एफ़ ४</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:54
+msgid "Additional boot methods; rescuing a broken system."
+msgstr "अधिकच्या बुट पद्धती; खराब झालेल्या प्रणालीला सुरळित करण्यासाठी"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:58
+msgid "<link linkend=\"F5\"><keycap>F5</keycap></link>"
+msgstr "<link linkend=\"F5\"><keycap>एफ़ ५</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:59
+msgid "Special boot parameters, overview."
+msgstr "विशेष बुट परिमाण, दृष्टीक्षेप."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:63 help.xml:384
+msgid "<link linkend=\"F6\"><keycap>F6</keycap></link>"
+msgstr "<link linkend=\"F6\"><keycap>एफ़ ६</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:64
+msgid "Special boot parameters for special machines."
+msgstr "विशेष मशिनींसाठी विशेष बुट पॅरामिटर"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:68 help.xml:389
+msgid "<link linkend=\"F7\"><keycap>F7</keycap></link>"
+msgstr "<link linkend=\"F7\"><keycap>एफ़ ७</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:69
+msgid "Special boot parameters for selected disk controllers."
+msgstr "निवडक डिस्क नियंत्रकांसाठी विशेष बुट पॅरामिटर"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:73 help.xml:78 help.xml:394 help.xml:399
+msgid "<link linkend=\"F8\"><keycap>F8</keycap></link>"
+msgstr "<link linkend=\"F8\"><keycap>एफ़ ८</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:74
+msgid "Special boot parameters for the install system."
+msgstr "स्थापक प्रणालीसाठी विशेष बुट पॅरामिटर"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:79
+msgid "Special boot parameters for the bootstrap system."
+msgstr "बुटस्ट्रॅप प्रणालीसाठी विशेष बुट पॅरामिटर"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:83
+msgid "<link linkend=\"F9\"><keycap>F9</keycap></link>"
+msgstr "<link linkend=\"F9\"><keycap>एफ़ ९</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:84
+msgid "How to get help."
+msgstr "मदत कशी मिळवावी."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:88
+msgid "<link linkend=\"F10\"><keycap>F10</keycap></link>"
+msgstr "<link linkend=\"F10\"><keycap>एफ़ १०</keycap></link>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:89
+msgid "Copyrights and warranties."
+msgstr "हक्क आणि हमी."
+
+#.  deliberately unindented 
+#. type: Content of: <reference><refentry><refsection><literallayout>
+#: help.xml:95
+#, no-wrap
+msgid ""
+"For F1-F9 type control and F then the digit 1-9\n"
+"For F10 type control and F then the digit 0\n"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:100
+msgid "Press F2 through F10 for details, or ENTER to ${BOOTPROMPT}"
+msgstr "अधिक माहितीसाठी एफ़ १ ते एफ़ १० दाबा, ${BOOTPROMPT} करीता ENTER करा"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:104
+msgid "Press F2 through F10 for details, or Escape to exit help."
+msgstr "अधिक माहितीसाठी एफ़ १ ते एफ़ १० दाबा, मदतीतुन बाहेर जाण्याकरीता Escape दाबा."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:111
+msgid "<keycap>F2</keycap>"
+msgstr "<keycap>एफ़ २</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:112
+msgid "PREREQUISITES FOR INSTALLING UBUNTU"
+msgstr "उबुंतू स्थापनेसाठी पूर्वापेक्षा"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:119
+msgid ""
+"You must have at least 32 megabytes of RAM to use this Ubuntu installer."
+msgstr ""
+"ह्या उबुंतू स्थापकाचा उपयोग करण्यासाठी तुमच्याकडे कमीतकमी ३२ मेगाबाईट्सची रॅम पाहिजे."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:123
+msgid ""
+"You should have space on your hard disk to create a new disk partition of at "
+"least 5 gigabytes to install a standard Ubuntu desktop system or at least "
+"500 megabytes for a minimal server installation. You'll need more disk space "
+"to install additional packages, depending on what you wish to do with your "
+"new Ubuntu system."
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:131 help.xml:732
+msgid ""
+"See the Installation Manual or the FAQ for more information; both documents "
+"are available at the Ubuntu web site, <ulink url=\"http://www.ubuntu.com/\" /"
+">"
+msgstr ""
+"अधिक माहितीकरिता स्थापकाचे माहितीपुस्तक किंवा वारंवार विचारलेले प्रश्न (एफ ए क्यु) पहा. "
+"दोन्ही डॉक्युमेंट्स युबंटूच्या संकेत स्थळावर उपल्बध आहेत. <ulink url=\"http://www.ubuntu."
+"com/\" />"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:137
+msgid ""
+"You must have at least 384 megabytes of RAM to use this Ubuntu live system."
+msgstr ""
+"ही उबुंतू थेट प्रणाली वापरण्याकरिता तमच्याकडे कमीतकमी ३८४ मेगाबाईट्सची रॅम असायलाच हवी."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:142
+msgid ""
+"The live system does not require any space on your hard disk. However, "
+"existing Linux swap partitions on the disk will be used if available."
+msgstr ""
+"उबुंतू थेट प्रणालीला तुमच्या हार्ड डिस्कवरील काहीच जागेची गरज नाही. तरीपण अगोदरच उपल्बध "
+"असलेले लिनक्स स्व्याप पार्टीशन वापरले जातील."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:147 help.xml:738
+msgid ""
+"See the FAQ for more information; this document is available at the Ubuntu "
+"web site, <ulink url=\"http://www.ubuntu.com/\" />"
+msgstr ""
+"अधिक माहितीकरिता वारंवार विचारलेले प्रश्न (एफ ए क्यु) पहा; हा दस्तऐवज उबुंतूच्या संकेत "
+"स्थळावर उपल्बध आहे. <ulink url=\"http://www.ubuntu.com/\" />"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:152
+msgid "Thank you for choosing Ubuntu!"
+msgstr "युबुंटु निवडल्याबद्दल धन्यवाद!"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:156 help.xml:268 help.xml:314 help.xml:343 help.xml:417
+#: help.xml:524 help.xml:597 help.xml:687 help.xml:743 help.xml:799
+msgid ""
+"Press <phrase class=\"not-serial\">F1</phrase><phrase class=\"serial"
+"\">control and F then 1</phrase> for the help index, or ENTER to "
+"${BOOTPROMPT}"
+msgstr ""
+"मदत अनुक्रमणिकेसाठी <phrase class=\"not-serial\">एफ़१</phrase><phrase class="
+"\"serial\">कंट्रोल आणि एफ़ मग १</phrase> दाबा, किंवा ${BOOTPROMPT} मध्ये प्रवेश करा."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:161 help.xml:273 help.xml:319 help.xml:348 help.xml:422
+#: help.xml:529 help.xml:602 help.xml:692 help.xml:748 help.xml:804
+msgid "Press F1 for the help index, or Escape to exit help."
+msgstr "मदत अनुक्रमणिकेसाठी एफ़१ दाबा, किंवा बाहेर पडण्यासाठी एस्केप दाबा."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:168
+msgid "<keycap>F3</keycap>"
+msgstr "<keycap>एफ़३</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:169
+msgid "BOOT METHODS"
+msgstr "बुट पध्दती"
+
+#. type: Content of: <reference><refentry><refsection><title>
+#: help.xml:173
+msgid "Available boot methods:"
+msgstr "उपल्बध बुट पध्दती"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:177
+msgid "install"
+msgstr "स्थापा"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:178 help.xml:210
+msgid "Install Ubuntu"
+msgstr "युबुंटु स्थापा"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:180
+msgid "Start the installation -- this is the default option."
+msgstr "स्थापण्यास सुरूवात करा -- हा ठरलेला पर्याय आहे."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:185
+msgid "expert"
+msgstr "तज्ञ"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:187
+msgid "Start the installation in expert mode, for maximum control."
+msgstr "अधिकतम नियंत्रणासाठी तज्ञ पध्दतिने स्थापण्यास सुरूवात करा"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:192
+msgid "cli"
+msgstr "सि एल आय"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:193
+msgid "cli-expert"
+msgstr "सि एल आय - तज्ञ"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:195
+msgid "Minimal command-line system install."
+msgstr "लघुत्तम आज्ञा-आधारित संस्था स्थापना."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:200
+msgid "live"
+msgstr "थेट"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:201
+msgid "Try Ubuntu without any change to your computer"
+msgstr "तुमच्या संगणकामध्ये बदल न करता उबुंटू वापरुन बघा"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:203
+msgid ""
+"Start the live system. If you wish, you can install it later using the "
+"\"Install\" icon on the desktop."
+msgstr ""
+"थेट प्रणाली सुरू करा. नंतर वाटल्यास तुम्ही  \"स्थापा\" हे डेस्कटॉपवरील चिन्ह वापरून ती "
+"स्थापू शकाल."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:209
+msgid "live-install"
+msgstr "थेट-स्थापना"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:212
+msgid "Start the installation."
+msgstr "स्थापण्यास सुरुवात करा."
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:228
+msgid "memtest"
+msgstr "मेमरी परिक्षण"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:229
+msgid "Test memory"
+msgstr "मेमरी परिक्षण करा"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:231
+msgid "Perform a memory test."
+msgstr "मेमरी परिक्षण करा"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:237 help.xml:298
+msgid ""
+"To use one of these boot methods, type it at the prompt, optionally followed "
+"by any boot parameters. For example:"
+msgstr ""
+"यापैकी एखाद्यी बुट पध्दत वापरण्यासाठी, ती पर्यायी बुट पॅरामीटर्स सह प्रॉम्टवर टाईप करा. "
+"उदाहरणार्थ:"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:242
+#, no-wrap
+msgid "boot: install acpi=off"
+msgstr "boot: install acpi=off"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:243
+#, no-wrap
+msgid "boot: live acpi=off"
+msgstr "boot: live acpi=off"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:247
+msgid ""
+"If unsure, you should use the default boot method, with no special "
+"parameters, by simply pressing enter at the boot prompt."
+msgstr ""
+"जर खात्री नसेल, तर तुम्ही कोणतेही विशेष परिमाण न टाकता सरळ एंटर दाबून आहे तो बूट प्रकार "
+"वापरा."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:252
+msgid ""
+"(\"Ubuntu\" may be replaced with other related operating system names. This "
+"help text is generic.)"
+msgstr ""
+"(\"उबुंटू\" बदलून तिथे दुसऱ्या संलग्न कार्यप्रणालीचे नाव येऊ शकते. हे मदतपाठ्य सर्वलागू आहे.)"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:257 help.xml:307
+msgid ""
+"To use one of these boot methods, select it from the menu with the cursor "
+"keys. Press F4 to select alternative start-up and installation modes.  Press "
+"F6 to edit boot parameters. Press F6 again to select from a menu of commonly-"
+"used boot parameters."
+msgstr ""
+"ह्यापैकी एक बूट प्रकार वापरण्यासाठी, तो मेन्यूतून बाणांकीत बटण दाबून निवडा. पर्यायी "
+"सुरुवात व स्थापना प्रकांरांसाठी एफ़४ दाबा. विशेष बूट परिमाणांसाठी एफ़६ दाबा. मेन्यूतून "
+"साधारणपणे वापरले जाणारे बूट परीमाण निवडण्यासाठी परत एफ़६ दाबा."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:264
+msgid ""
+"Except in expert mode, non-critical kernel boot messages are suppressed."
+msgstr "तज्ञ - पद्धतीव्यतीरिक्त इतरत्र बिनमहत्वाचे कर्नल बूट संदेश दाखवले जात नाहीत."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:280 help.xml:326
+msgid "<keycap>F4</keycap>"
+msgstr "<keycap>एफ़४</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:281 help.xml:327
+msgid "RESCUING A BROKEN SYSTEM"
+msgstr "बिघडलेली प्रणाली दुरुस्त करत आहे"
+
+#. type: Content of: <reference><refentry><refsection><title>
+#: help.xml:285
+msgid "Use one of these boot methods to rescue an existing install"
+msgstr "यातील एखादी बूट पद्धती वापरुन सध्या असलेली प्रणाली दुरुस्त करा"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:289
+msgid "rescue"
+msgstr "दुरुस्त करा"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><term>
+#: help.xml:290
+msgid "Rescue a broken system"
+msgstr "बिघडलेली प्रणाली दुरुस्त करा"
+
+#. type: Content of: <reference><refentry><refsection><variablelist><varlistentry><listitem><para>
+#: help.xml:292
+msgid "Boot into rescue mode."
+msgstr "दुरुस्ती पद्धतीने बूट करा."
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:303
+#, no-wrap
+msgid "boot: rescue acpi=off"
+msgstr "boot: rescue acpi=off"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:334
+msgid ""
+"There is no dedicated rescue mode on this disc. However, since the disc "
+"provides a complete user environment, it is possible to use the command-line "
+"and/or graphical tools provided to rescue a broken system, and to use a web "
+"browser to search for help. Extensive advice is available online for most "
+"kinds of problems that might cause your normal system to fail to boot "
+"correctly."
+msgstr ""
+"ह्या डिस्कवर दुरुस्तीसाठी स्वतंत्र पद्धती उपलब्ध नाही. पण ह्यात संपुर्ण उपभोक्ता वातावरण "
+"असल्यामुळे, उपलब्ध चित्र-आधारीत व आज्ञा-आधारीत दुरुस्ती वापरिकांचा बिघडलेली प्रणाली दुरुस्त "
+"करण्यासाठी फायदा होऊ शकेल, शिवाय आंतरजाल दर्शक वापरुन मदत शोधता येईल. जवळपास सर्व "
+"प्रकारच्या समस्या, ज्यामुळे तुमची प्रणाली बूट होत नाही त्यावर आंतरजालावर प्रचंड प्रमाणात "
+"सल्ला उपलब्ध आहे."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:355
+msgid "<keycap>F5</keycap>"
+msgstr "<keycap>एफ़५</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:356
+msgid "SPECIAL BOOT PARAMETERS - OVERVIEW"
+msgstr "विशेष बूट परिमाण - दृष्टीक्षेप"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:363
+msgid ""
+"On a few systems, you may need to specify a parameter at the <literal>boot:</"
+"literal> prompt in order to boot the system."
+msgstr ""
+"काही प्रणालींवर, प्रणाली बूट करण्यासाठी तुम्हाला <literal>boot:</literal> ओळीवर "
+"विशेष परिमाण द्यावे लागू शकतात."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:367
+msgid ""
+"On a few systems, you may need to specify a parameter by pressing F6 in "
+"order to boot the system."
+msgstr ""
+"काही प्रणालींवर, प्रणाली बूट करण्यासाठी तुम्हाला एफ़६ दाबून विशेष परिमाण द्यावे लागू "
+"शकतात."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:371
+msgid ""
+"For example, Linux may not be able to autodetect your hardware, and you may "
+"need to explicitly specify its location or type for it to be recognized."
+msgstr ""
+"उदाहरणार्थ, लायनक्सला तुमचे हार्डवेअर स्वत: हून शोधता आले नाही तर तुम्हालाच त्या "
+"हार्डवेअरची जागा किंवा प्रकार मुद्दामहुन सांगावे लागू शकतात."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:377
+msgid "For more information about what boot parameters you can use, press:"
+msgstr "बूट परिमाण काय आहेत त्याविषयी अधिक माहितीसाठी, तुम्ही दाबू शकता:"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:385
+msgid "boot parameters for special machines"
+msgstr "विशेष मशीनींसाठी बूट परिमाण"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:390
+msgid "boot parameters for various disk controllers"
+msgstr "विविध डिस्क नियंत्रकांसाठी बूट परिमाण"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:395
+msgid "boot parameters understood by the install system"
+msgstr "स्थापना प्रणालीला कळणारे बूट परिमाण"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:400
+msgid "boot parameters understood by the bootstrap system"
+msgstr "बूटस्ट्रॅप प्रणालीला कळणारे बूट परिमाण"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:405
+msgid ""
+"Many kernel modules are loaded dynamically by the installer, and parameters "
+"for those modules cannot be given on the command line. To be prompted for "
+"parameters when modules are loaded, boot in expert mode (see <link linkend="
+"\"F3\"><keycap>F3</keycap></link>)."
+msgstr ""
+"स्थापनाप्रणालीद्वारे कर्नलचे विविध भाग लागतील तसे चढवले जातात, आणी त्यांच्यासाठीचे "
+"परिमाण हे आज्ञा-ओळीवर दिले जाऊ शकत नाहीत. जर अश्या परिमाणांविषयी भाग चढवला जात "
+"असतांना विचारणा करुन हवी असेल तर तज्ञ पद्धतीने बूट करा (linkend=\"F3\"><keycap>एफ़</"
+"keycap></link> बघा)."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:412
+msgid ""
+"Many kernel modules are loaded dynamically by the bootstrap system, and "
+"parameters for those modules cannot be given on the command line."
+msgstr ""
+"बूटस्ट्रॅप प्रणालीद्वारे कर्नलचे विविध भाग लागतील तसे चढवले जातात, आणी त्यांच्यासाठीचे "
+"परिमाण हे आज्ञा-ओळीवर दिले जाऊ शकत नाहीत."
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:429
+msgid "<keycap>F6</keycap>"
+msgstr "<keycap>एफ़ ६</keycap>"
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:430
+msgid "SPECIAL BOOT PARAMETERS - VARIOUS HARDWARE"
+msgstr "विशेष बूट परिमाण - विविध हार्डवेअर"
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:437 help.xml:544 help.xml:615
+msgid ""
+"You can use the following boot parameters at the <literal>boot:</literal> "
+"prompt, in combination with the boot method (see <link linkend="
+"\"F3\"><keycap>F3</keycap></link>)."
+msgstr ""
+"तुम्ही <literal>बूट:<literal> प्रोम्प्टला बूट पद्धतीबरोबर हे पॅरामीटर वापरू शकता (<link "
+"linkend=\"F3\"><keycap>एफ़३</keycap></link> बघा)."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:442 help.xml:549 help.xml:620
+msgid ""
+"You can use the following boot parameters by pressing F6, in combination "
+"with the boot method (see <link linkend=\"F3\"><keycap>F3</keycap></link>)."
+msgstr ""
+"तुम्ही एफ ६ दाबून बूट पद्धतीबरोबर हे पॅरामीटर वापरू शकता (<link linkend="
+"\"F3\"><keycap>एफ़३</keycap></link> बघा)."
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:446
+msgid "If you use hex numbers you have to use the 0x prefix (e.g., 0x300)."
+msgstr "हेक्स आकड्यांना आधी 0x लावा(उदा. 0x300)."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:451 help.xml:555
+msgid "HARDWARE"
+msgstr "हार्डवेअर"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:452 help.xml:556
+msgid "PARAMETER TO SPECIFY"
+msgstr "द्यावयाचा बूट परिमाण"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:455
+msgid "IBM PS/1 or ValuePoint (IDE disk)"
+msgstr "आय बी एम पी एस/१ अथवा व्हल्यु पॉंईंट (आय डी ई डिस्क )"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:456
+msgid ""
+"<userinput>hd=<replaceable>cylinders</replaceable>,<replaceable>heads</"
+"replaceable>,<replaceable>sectors</replaceable></userinput>"
+msgstr ""
+"<userinput>hd=<replaceable>cylinders</replaceable>,<replaceable>heads</"
+"replaceable>,<replaceable>sectors</replaceable></userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:460
+msgid "Some IBM ThinkPads"
+msgstr "काही आय बी एम थिंकपॅड"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:461
+msgid "<userinput>floppy.floppy=thinkpad</userinput>"
+msgstr "<userinput>floppy.floppy=thinkpad</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:465
+msgid "Protect I/O port regions"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:466
+msgid ""
+"<userinput>reserve=<replaceable>iobase</replaceable>,<replaceable>extent</"
+"replaceable></userinput><optional><userinput>,<replaceable>...</"
+"replaceable></userinput></optional>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:470
+msgid "Laptops with screen display problems"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:471
+msgid "<userinput>vga=771</userinput>"
+msgstr "<userinput>वीजीए = ७७१</userinput>"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:475
+msgid "Use first serial port at 9600 baud"
+msgstr "पहिले सीरिअल पोर्ट ९६०० बाॅड वेगाने वापरा."
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:476
+msgid "<userinput>console=ttyS0,9600n8</userinput>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:480
+msgid "Force use of generic IDE driver"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:481
+msgid "<userinput>all_generic_ide=1</userinput>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:486
+msgid ""
+"Possible (temporary) workarounds for lockups or other hardware failures:"
+msgstr "लाॅकअप्स अथवा इतर हार्डवेअर अडचणींवर शक्य (तात्पुरते) उपाय"
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:493
+msgid "disable buggy APIC interrupt routing"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:494
+msgid "<userinput>noapic nolapic</userinput>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:498
+msgid "(partly) disable ACPI"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:500
+msgid "<userinput>acpi=noirq</userinput> or <userinput>acpi=off</userinput>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:506
+msgid "disable USB"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:507
+msgid "<userinput>nousb</userinput>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:511
+msgid "poll for interrupts"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:512
+msgid "<userinput>irqpoll</userinput>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:516 help.xml:589 help.xml:679
+msgid "For example:"
+msgstr "उदाहरणार्थः"
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:519
+#, no-wrap
+msgid "boot: install vga=771 noapic nolapic"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:520
+#, no-wrap
+msgid "boot: live vga=771 noapic nolapic"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:536
+msgid "<keycap>F7</keycap>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:537
+msgid "SPECIAL BOOT PARAMETERS - VARIOUS DISK DRIVES"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:559
+msgid "Adaptec 151x, 152x"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:560
+msgid ""
+"<userinput>aha152x.aha152x=<replaceable>iobase</replaceable></"
+"userinput><optional><userinput>,<replaceable>irq</replaceable></"
+"userinput><optional><userinput>,<replaceable>scsi-id</replaceable></"
+"userinput><optional><userinput>,<replaceable>reconnect</replaceable></"
+"userinput></optional></optional></optional>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:564
+msgid "Adaptec 1542"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:565
+msgid ""
+"<userinput>aha1542.aha1542=<replaceable>iobase</replaceable></"
+"userinput><optional><userinput>,<replaceable>buson</replaceable>,"
+"<replaceable>busoff</replaceable></userinput><optional><userinput>,"
+"<replaceable>dmaspeed</replaceable></userinput></optional></optional>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:569
+msgid "Adaptec 274x, 284x"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:570
+msgid "<userinput>aic7xxx.aic7xxx=no_reset</userinput> (enabled if non-zero)"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:574
+msgid "BusLogic SCSI Hosts"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:575
+msgid ""
+"<userinput>BusLogic.BusLogic=<replaceable>iobase</replaceable></userinput>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:579
+msgid "Certain DELL machines"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:580
+msgid "<userinput>aic7xxx.aic7xxx=no_probe</userinput>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:585
+msgid ""
+"This list is incomplete, see the kernel's kernel-parameters.txt file for "
+"more."
+msgstr "ही यादी पूर्ण नाही, आणखी माहितीसाठी kernel-parameters.txt फाईल पहा."
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:592
+#, no-wrap
+msgid "boot: install aic7xxx.aic7xxx=no_probe"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:593
+#, no-wrap
+msgid "boot: live aic7xxx.aic7xxx=no_probe"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:609
+msgid "<keycap>F8</keycap>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:610
+msgid "SPECIAL BOOT PARAMETERS - INSTALLATION SYSTEM"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:624
+msgid "These parameters control how the installer works."
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:627
+msgid "These parameters control how the bootstrap system works."
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:632
+msgid "RESULT"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><segtitle>
+#: help.xml:633
+msgid "PARAMETER"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:636
+msgid "Disable framebuffer"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:637
+msgid "<userinput>vga=normal fb=false</userinput>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:641
+msgid "Don't start PCMCIA"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:642
+msgid "<userinput>hw-detect/start_pcmcia=false</userinput>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:646
+msgid "Force static network config"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:647
+msgid "<userinput>netcfg/disable_dhcp=true</userinput>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:651
+msgid "Set keyboard map"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:652
+msgid "<userinput>bootkbd=es</userinput>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:656
+msgid "Select the Kubuntu desktop"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:657
+msgid "<userinput>tasks=kubuntu-desktop</userinput>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:662
+msgid ""
+"Disable ACPI for PCI maps (handy for some HP servers and Via-based machines)"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:665
+msgid "<userinput>pci=noacpi</userinput>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:669
+msgid "Use high contrast theme"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:670
+msgid "<userinput>theme=dark</userinput>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:674
+msgid "Use Braille tty"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><segmentedlist><seglistitem><seg>
+#: help.xml:675
+msgid ""
+"<userinput>brltty=<replaceable>driver</replaceable>,<replaceable>device</"
+"replaceable>,<replaceable>texttable</replaceable></userinput>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:682
+#, no-wrap
+msgid "boot: install vga=normal fb=false"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><informalexample><screen>
+#: help.xml:683
+#, no-wrap
+msgid "boot: live pci=noacpi"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:699
+msgid "<keycap>F9</keycap>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:700
+msgid "GETTING HELP"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:707
+msgid "If you can't install Ubuntu, don't despair!"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:710
+msgid "If you can't start Ubuntu, don't despair!"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:713
+msgid "The Ubuntu team is ready to help you!"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:716
+msgid ""
+"We are especially interested in hearing about installation problems, because "
+"in general they don't happen to only <emphasis>one</emphasis> person."
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:721
+msgid ""
+"We are especially interested in hearing about startup problems, because in "
+"general they don't happen to only <emphasis>one</emphasis> person."
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:725
+msgid ""
+"We've either already heard about your particular problem and can dispense a "
+"quick fix, or we would like to hear about it and work through it with you, "
+"and the next user who comes up with the same problem will profit from your "
+"experience!"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refnamediv><refdescriptor>
+#: help.xml:755
+msgid "<keycap>F10</keycap>"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refnamediv><refname>
+#: help.xml:756
+msgid "COPYRIGHTS AND WARRANTIES"
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:763
+msgid ""
+"Ubuntu is Copyright (C) 2004-2010 Canonical Ltd., and incorporates the work "
+"of many other original authors and contributors."
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:768
+msgid "The Ubuntu system is freely redistributable."
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:771
+msgid ""
+"After installation, the exact distribution terms for each package are "
+"described in the corresponding file /usr/share/doc/<replaceable>packagename</"
+"replaceable>/copyright."
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:776
+msgid ""
+"After startup, the exact distribution terms for each package are described "
+"in the corresponding file /usr/share/doc/<replaceable>packagename</"
+"replaceable>/copyright."
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:782
+msgid ""
+"Ubuntu comes with <emphasis>ABSOLUTELY NO WARRANTY</emphasis>, to the extent "
+"permitted by applicable law."
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:787
+msgid ""
+"This installation system is based on the Debian installer. See <ulink url="
+"\"http://www.debian.org/\" /> for more details and information on the Debian "
+"project."
+msgstr ""
+
+#. type: Content of: <reference><refentry><refsection><para>
+#: help.xml:793
+msgid ""
+"This system is based on Debian. See <ulink url=\"http://www.debian.org/\" /> "
+"for more details and information on the Debian project."
+msgstr ""
