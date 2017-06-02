@@ -1,8 +1,14 @@
+debian-installer (20101020ubuntu451.10+edge22) xenial; urgency=medium
+
+  * kernel version -22
+
+ -- Breno Leitao <breno.leitao@gmail.com.com>  Fri, 02 Jun 2017 08:53:31 -0400
+
 debian-installer (20101020ubuntu451.10+edge21) xenial; urgency=medium
 
   *  kernel version -21
 
- -- Breno Leitao <breno.leitao@gmail.co>  Mon, 08 May 2017 12:47:20 -0400
+ -- Breno Leitao <breno.leitao@gmail.com>  Mon, 08 May 2017 12:47:20 -0400
 
 debian-installer (20101020ubuntu451.10+edge19) xenial; urgency=medium
 
