@@ -1,6 +1,6 @@
-debian-installer (20101020ubuntu451.10+edge22ubuntu1) xenial; urgency=medium
+debian-installer (20101020ubuntu451.10+edge24ubuntu1) xenial; urgency=medium
 
-  * kernel version -25
+  * kernel version -24
 
  -- Breno Leitao <breno.leitao@gmail.com>  Tue, 27 Jun 2017 11:41:23 -0400
 
